@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-15T20:03:53.216Z",
+  "updated": "2026-06-15T22:27:17.059Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -190,13 +190,13 @@
       "stage": "GROUP_STAGE",
       "group": "G",
       "utcDate": "2026-06-15T19:00:00Z",
-      "status": "PAUSED",
+      "status": "FINISHED",
       "matchday": 1,
       "home": "Belgium",
       "away": "Egypt",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 1,
-      "winner": "AWAY_TEAM",
+      "winner": "DRAW",
       "odds": null
     },
     {
@@ -204,13 +204,13 @@
       "stage": "GROUP_STAGE",
       "group": "H",
       "utcDate": "2026-06-15T22:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 1,
       "home": "Saudi Arabia",
       "away": "Uruguay",
-      "homeScore": null,
-      "awayScore": null,
-      "winner": null,
+      "homeScore": 0,
+      "awayScore": 0,
+      "winner": "DRAW",
       "odds": null
     },
     {
