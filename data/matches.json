@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-15T16:27:49.266Z",
+  "updated": "2026-06-15T20:03:53.216Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -176,7 +176,7 @@
       "stage": "GROUP_STAGE",
       "group": "H",
       "utcDate": "2026-06-15T16:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "matchday": 1,
       "home": "Spain",
       "away": "Cape Verde Islands",
@@ -190,13 +190,13 @@
       "stage": "GROUP_STAGE",
       "group": "G",
       "utcDate": "2026-06-15T19:00:00Z",
-      "status": "TIMED",
+      "status": "PAUSED",
       "matchday": 1,
       "home": "Belgium",
       "away": "Egypt",
-      "homeScore": null,
-      "awayScore": null,
-      "winner": null,
+      "homeScore": 0,
+      "awayScore": 1,
+      "winner": "AWAY_TEAM",
       "odds": null
     },
     {
