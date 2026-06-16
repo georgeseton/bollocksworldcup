@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-16T21:47:26.472Z",
+  "updated": "2026-06-16T23:14:36.895Z",
   "competition": "WC",
   "count": 30,
   "scorers": [
@@ -30,6 +30,12 @@
     {
       "player": "Kylian Mbappé",
       "team": "France",
+      "goals": 2,
+      "assists": null
+    },
+    {
+      "player": "Erling Haaland",
+      "team": "Norway",
       "goals": 2,
       "assists": null
     },
@@ -174,12 +180,6 @@
     {
       "player": "Keito Nakamura",
       "team": "Japan",
-      "goals": 1,
-      "assists": null
-    },
-    {
-      "player": "Crysencio Summerville",
-      "team": "Netherlands",
       "goals": 1,
       "assists": null
     }

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-16T21:47:26.250Z",
+  "updated": "2026-06-16T23:14:36.709Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -246,13 +246,13 @@
       "stage": "GROUP_STAGE",
       "group": "I",
       "utcDate": "2026-06-16T22:00:00Z",
-      "status": "TIMED",
+      "status": "PAUSED",
       "matchday": 1,
       "home": "Iraq",
       "away": "Norway",
-      "homeScore": null,
-      "awayScore": null,
-      "winner": null,
+      "homeScore": 1,
+      "awayScore": 2,
+      "winner": "AWAY_TEAM",
       "odds": null
     },
     {
