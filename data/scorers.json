@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-15T05:17:46.724Z",
+  "updated": "2026-06-16T05:38:19.621Z",
   "competition": "WC",
   "count": 30,
   "scorers": [
@@ -18,6 +18,12 @@
     {
       "player": "Yasin Ayari",
       "team": "Sweden",
+      "goals": 2,
+      "assists": null
+    },
+    {
+      "player": "Elijah Just",
+      "team": "New Zealand",
       "goals": 2,
       "assists": null
     },
@@ -174,12 +180,6 @@
     {
       "player": "Daichi Kamada",
       "team": "Japan",
-      "goals": 1,
-      "assists": null
-    },
-    {
-      "player": "Amad Diallo",
-      "team": "Ivory Coast",
       "goals": 1,
       "assists": null
     }
