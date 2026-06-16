@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-16T15:32:56.199Z",
+  "updated": "2026-06-16T19:06:40.398Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -232,13 +232,13 @@
       "stage": "GROUP_STAGE",
       "group": "I",
       "utcDate": "2026-06-16T19:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 1,
       "home": "France",
       "away": "Senegal",
-      "homeScore": null,
-      "awayScore": null,
-      "winner": null,
+      "homeScore": 0,
+      "awayScore": 0,
+      "winner": "DRAW",
       "odds": null
     },
     {
