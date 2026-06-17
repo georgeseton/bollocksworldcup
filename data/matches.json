@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-17T22:01:57.489Z",
+  "updated": "2026-06-17T23:49:13.125Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -40,9 +40,9 @@
       "matchday": 1,
       "home": "Canada",
       "away": "Bosnia-Herzegovina",
-      "homeScore": null,
-      "awayScore": null,
-      "winner": null,
+      "homeScore": 1,
+      "awayScore": 1,
+      "winner": "DRAW",
       "odds": null
     },
     {
@@ -302,7 +302,7 @@
       "stage": "GROUP_STAGE",
       "group": "L",
       "utcDate": "2026-06-17T20:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "matchday": 1,
       "home": "England",
       "away": "Croatia",
@@ -316,13 +316,13 @@
       "stage": "GROUP_STAGE",
       "group": "L",
       "utcDate": "2026-06-17T23:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 1,
       "home": "Ghana",
       "away": "Panama",
-      "homeScore": null,
-      "awayScore": null,
-      "winner": null,
+      "homeScore": 0,
+      "awayScore": 0,
+      "winner": "DRAW",
       "odds": null
     },
     {
