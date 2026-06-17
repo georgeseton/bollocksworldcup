@@ -9,8 +9,8 @@
 :root {
   /* Default — cyan / violet holographic */
   --bg: #06070f;
-  --panel: rgba(18, 23, 42, 0.55);
-  --panel-2: rgba(30, 38, 66, 0.6);
+  --panel: rgba(16, 21, 40, 0.7);
+  --panel-2: rgba(28, 36, 64, 0.72);
   --panel-solid: #10162b;
   --border: rgba(150, 180, 255, 0.16);
   --border-bright: rgba(180, 210, 255, 0.4);
@@ -39,8 +39,8 @@ html[data-theme="sunset"] { --accent: #ff8a5b; --accent-2: #ff6ad5;
   --holo: linear-gradient(115deg, #ff8a5b, #ff6ad5, #ffd86d, #ff9f7d, #ff8a5b); }
 html[data-theme="light"] {
   --bg: #e7ecfb;
-  --panel: rgba(255, 255, 255, 0.62);
-  --panel-2: rgba(255, 255, 255, 0.78);
+  --panel: rgba(255, 255, 255, 0.72);
+  --panel-2: rgba(255, 255, 255, 0.84);
   --panel-solid: #ffffff;
   --border: rgba(40, 70, 140, 0.18);
   --border-bright: rgba(40, 70, 140, 0.45);
@@ -109,7 +109,7 @@ h1, h2, .nm-name, .nm-score, .rank { font-family: var(--font-head); }
 .site-header { padding: 38px 0 16px; text-align: center; }
 .trophy-wrap { display: flex; justify-content: center; margin-bottom: 6px; animation: riseIn 0.7s ease both; }
 .trophy {
-  width: clamp(74px, 17vw, 116px); height: auto;
+  width: clamp(66px, 19vw, 116px); height: auto;
   filter: drop-shadow(0 6px 16px rgba(255, 209, 102, 0.35)) drop-shadow(0 0 26px color-mix(in srgb, var(--accent) 35%, transparent));
   animation: floaty 5s ease-in-out infinite;
 }
@@ -136,7 +136,7 @@ h1, h2, .nm-name, .nm-score, .rank { font-family: var(--font-head); }
   display: inline-flex; align-items: center; gap: 7px;
   background: var(--panel); border: 1px solid var(--border); border-radius: 12px;
   padding: 7px 15px; font-size: 0.9rem; color: var(--muted);
-  -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px); box-shadow: var(--shadow);
+  box-shadow: var(--shadow);
 }
 .prize .medal { font-size: 1.05rem; }
 .prize strong { font-family: var(--font-head); font-size: 1.1rem; letter-spacing: 0.02em; color: var(--accent); font-weight: 800; }
@@ -148,7 +148,6 @@ h1, h2, .nm-name, .nm-score, .rank { font-family: var(--font-head); }
   background: var(--panel); color: var(--muted);
   border: 1px solid var(--border); padding: 9px 18px; border-radius: 999px;
   cursor: pointer; font-size: 0.86rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase;
-  -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px);
   transition: transform 0.14s ease, color 0.15s, border-color 0.15s, box-shadow 0.15s;
 }
 .tab:hover { color: var(--text); transform: translateY(-1px); border-color: var(--border-bright); }
@@ -169,7 +168,6 @@ h1, h2, .nm-name, .nm-score, .rank { font-family: var(--font-head); }
   display: inline-flex; align-items: center; gap: 6px; padding: 5px 11px; border-radius: 999px;
   font-size: 0.78rem; font-weight: 700; border: 1px solid var(--border);
   background: var(--panel); color: var(--text);
-  -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px);
   transition: transform 0.12s ease, opacity 0.12s ease, border-color 0.12s, box-shadow 0.12s;
 }
 .chip:hover { transform: translateY(-1px); border-color: var(--border-bright); }
@@ -204,7 +202,6 @@ h1, h2, .nm-name, .nm-score, .rank { font-family: var(--font-head); }
   border: 1px solid var(--border);
   border-radius: 16px;
   box-shadow: var(--shadow);
-  -webkit-backdrop-filter: blur(14px) saturate(1.2); backdrop-filter: blur(14px) saturate(1.2);
   overflow: hidden;
   transition: transform 0.16s ease, box-shadow 0.16s ease, border-color 0.16s ease;
 }
@@ -327,14 +324,13 @@ h1, h2, .nm-name, .nm-score, .rank { font-family: var(--font-head); }
 .stage-matches { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 10px; }
 .stage-matches .fixture {
   background: var(--panel); border: 1px solid var(--border); border-radius: 12px; padding: 12px;
-  -webkit-backdrop-filter: blur(10px); backdrop-filter: blur(10px);
 }
 
 /* ---- Scorers / Shittest tables ------------------------------ */
 .table-scroll {
   overflow-x: auto; max-width: 620px; margin: 0 auto;
   background: var(--panel); border: 1px solid var(--border); border-radius: 16px; padding: 4px 14px;
-  -webkit-backdrop-filter: blur(14px); backdrop-filter: blur(14px); box-shadow: var(--shadow);
+  box-shadow: var(--shadow);
 }
 .scorers { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
 .scorers th {
