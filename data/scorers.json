@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-17T06:53:54.692Z",
+  "updated": "2026-06-17T22:01:57.725Z",
   "competition": "WC",
   "count": 30,
   "scorers": [
@@ -42,6 +42,12 @@
     {
       "player": "Erling Haaland",
       "team": "Norway",
+      "goals": 2,
+      "assists": null
+    },
+    {
+      "player": "Harry Kane",
+      "team": "England",
       "goals": 2,
       "assists": null
     },
@@ -176,12 +182,6 @@
       "team": "Germany",
       "goals": 1,
       "assists": 2
-    },
-    {
-      "player": "Virgil van Dijk",
-      "team": "Netherlands",
-      "goals": 1,
-      "assists": null
     }
   ]
 }
