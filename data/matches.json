@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-17T06:53:54.496Z",
+  "updated": "2026-06-17T17:40:25.880Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -288,13 +288,13 @@
       "stage": "GROUP_STAGE",
       "group": "K",
       "utcDate": "2026-06-17T17:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 1,
       "home": "Portugal",
       "away": "Congo DR",
-      "homeScore": null,
-      "awayScore": null,
-      "winner": null,
+      "homeScore": 1,
+      "awayScore": 0,
+      "winner": "HOME_TEAM",
       "odds": null
     },
     {
