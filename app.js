@@ -91,6 +91,36 @@ function buildIndexes() {
   return players;
 }
 
+// Derive a real flag image URL from the roster's flag emoji. Regional-indicator
+// pairs (🇲🇽) encode the ISO alpha-2 code directly; England/Scotland use tag
+// sequences, so map those by name. Powers the faded full-page flag backdrop.
+const FLAG_SUBDIVISION = { "England": "gb-eng", "Scotland": "gb-sct", "Wales": "gb-wls", "Northern Ireland": "gb-nir" };
+function flagCode(emoji, name) {
+  const cps = Array.from(emoji || "").map((c) => c.codePointAt(0));
+  if (cps.length === 2 && cps[0] >= 0x1f1e6 && cps[0] <= 0x1f1ff) {
+    return String.fromCharCode(cps[0] - 0x1f1e6 + 97) + String.fromCharCode(cps[1] - 0x1f1e6 + 97);
+  }
+  return FLAG_SUBDIVISION[name] || null;
+}
+function flagImg(emoji, name) {
+  const code = flagCode(emoji, name);
+  return code ? `https://flagcdn.com/w320/${code}.png` : null;
+}
+
+// Faded, blurred mosaic of every team's flag behind the whole page.
+function renderFlagBackdrop() {
+  const bg = document.getElementById("flag-bg");
+  if (!bg) return;
+  const urls = [];
+  for (const teams of Object.values(state.groups))
+    for (const t of teams) { const u = flagImg(t.flag, t.name); if (u) urls.push(u); }
+  if (!urls.length) return;
+  // Repeat the 48 unique flags enough to tile large screens (browser caches each URL).
+  const tiles = [];
+  for (let i = 0; i < 6; i++) for (const u of urls) tiles.push(u);
+  bg.innerHTML = tiles.map((u) => `<span class="flag-tile" style="background-image:url('${u}')"></span>`).join("");
+}
+
 // hex -> rgba string with given alpha
 function hexA(hex, a) {
   const n = parseInt(hex.slice(1), 16);
@@ -708,6 +738,7 @@ async function init() {
     state.facts = factData || {};
 
     const players = buildIndexes();
+    renderFlagBackdrop();
     renderLegend(players);
     wireEvents();
     renderAll();

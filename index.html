@@ -7,13 +7,56 @@
   <script>try { var t = localStorage.getItem("wc-theme"); if (t) document.documentElement.dataset.theme = t; } catch (e) {}</script>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;800&family=Saira+Condensed:wght@500;600;700;800&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;800&family=Orbitron:wght@600;700;800;900&family=Saira+Condensed:wght@500;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <div id="flag-bg" aria-hidden="true"></div>
+
   <header class="site-header">
     <div class="wrap">
-      <h1>🏆 Bollocks World Cup Sweepstake</h1>
+      <div class="trophy-wrap">
+        <svg class="trophy" viewBox="0 0 100 152" role="img" aria-label="World Cup trophy">
+          <defs>
+            <linearGradient id="goldHolo" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#fff3b0" />
+              <stop offset="0.28" stop-color="#ffd24a" />
+              <stop offset="0.5" stop-color="#b8862f" />
+              <stop offset="0.72" stop-color="#ffe9a3" />
+              <stop offset="1" stop-color="#9a6a1f" />
+            </linearGradient>
+            <radialGradient id="globeG" cx="0.38" cy="0.32" r="0.85">
+              <stop offset="0" stop-color="#fff7d6" />
+              <stop offset="0.5" stop-color="#ffcf4d" />
+              <stop offset="1" stop-color="#8a5a18" />
+            </radialGradient>
+            <linearGradient id="holoSheen" x1="0" y1="0" x2="1" y2="1">
+              <stop offset="0" stop-color="#7df9ff" />
+              <stop offset="0.5" stop-color="#ffffff" />
+              <stop offset="1" stop-color="#ff7df0" />
+            </linearGradient>
+            <filter id="trophyGlow" x="-30%" y="-30%" width="160%" height="160%">
+              <feGaussianBlur stdDeviation="1.4" result="b" />
+              <feMerge><feMergeNode in="b" /><feMergeNode in="SourceGraphic" /></feMerge>
+            </filter>
+          </defs>
+          <g filter="url(#trophyGlow)">
+            <ellipse cx="50" cy="146" rx="22" ry="4.5" fill="url(#goldHolo)" />
+            <rect x="30" y="137" width="40" height="8" rx="3" fill="url(#goldHolo)" />
+            <rect x="35" y="129" width="30" height="9" rx="2" fill="url(#goldHolo)" />
+            <path d="M50 55 C70 57 73 80 61 99 C56 109 57 121 65 130 L35 130 C43 121 44 109 39 99 C27 80 30 57 50 55 Z" fill="url(#goldHolo)" />
+            <circle cx="50" cy="39" r="19" fill="url(#globeG)" />
+            <ellipse cx="50" cy="39" rx="8" ry="19" fill="none" stroke="#7a5012" stroke-width="1" opacity="0.5" />
+            <line x1="31" y1="39" x2="69" y2="39" stroke="#7a5012" stroke-width="1" opacity="0.5" />
+            <path d="M34 29 Q50 35 66 29" stroke="#7a5012" stroke-width="1" fill="none" opacity="0.4" />
+            <path d="M34 49 Q50 43 66 49" stroke="#7a5012" stroke-width="1" fill="none" opacity="0.4" />
+            <circle class="trophy-holo" cx="50" cy="39" r="19" fill="url(#holoSheen)" opacity="0.2" />
+            <ellipse cx="43" cy="32" rx="5" ry="7.5" fill="#ffffff" opacity="0.4" />
+          </g>
+        </svg>
+      </div>
+      <h1>Bollocks World Cup</h1>
+      <p class="wordmark-sub">Sweepstake · 2026</p>
       <div class="prizes">
         <span class="prize"><span class="medal">🥇</span> Winner <strong>£100</strong></span>
         <span class="prize"><span class="medal">🥈</span> Runner-up <strong>£10</strong></span>
