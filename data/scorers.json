@@ -1,8 +1,14 @@
 {
-  "updated": "2026-06-16T23:14:36.895Z",
+  "updated": "2026-06-17T06:53:54.692Z",
   "competition": "WC",
   "count": 30,
   "scorers": [
+    {
+      "player": "Lionel Messi",
+      "team": "Argentina",
+      "goals": 3,
+      "assists": null
+    },
     {
       "player": "Folarin Balogun",
       "team": "United States",
@@ -174,12 +180,6 @@
     {
       "player": "Virgil van Dijk",
       "team": "Netherlands",
-      "goals": 1,
-      "assists": null
-    },
-    {
-      "player": "Keito Nakamura",
-      "team": "Japan",
       "goals": 1,
       "assists": null
     }
