@@ -1,17 +1,20 @@
 :root {
-  /* Default theme: "Slate" */
-  --bg: #0d1117;
-  --panel: #161b22;
-  --panel-2: #1c2230;
-  --border: #2a3242;
-  --text: #e6edf3;
-  --muted: #9aa7b8;
+  /* Default theme: "Slate" — deep navy-black, emerald accent */
+  --bg: #0b0e15;
+  --panel: #141b27;
+  --panel-2: #1b2433;
+  --border: #2a3446;
+  --text: #e9eef6;
+  --muted: #93a1b5;
   --accent: #34d399;
-  --accent-ink: #06281c;
-  --shadow: 0 4px 18px rgba(0, 0, 0, 0.35);
-  --page-bg: radial-gradient(1200px 600px at 50% -200px, #1b2a3a 0%, var(--bg) 60%);
-  --font-body: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  --font-head: "Space Grotesk", var(--font-body);
+  --accent-ink: #052a1d;
+  --shadow: 0 12px 30px -14px rgba(0, 0, 0, 0.65);
+  --page-bg:
+    radial-gradient(1100px 560px at 50% -180px, #1d2c40 0%, transparent 58%),
+    radial-gradient(900px 520px at 88% 4%, color-mix(in srgb, var(--accent) 9%, transparent), transparent 55%),
+    var(--bg);
+  --font-body: "Hanken Grotesk", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-head: "Saira Condensed", "Hanken Grotesk", ui-sans-serif, sans-serif;
 }
 
 /* ---- Alternative colour schemes (set via data-theme on <html>) ---- */
@@ -435,3 +438,85 @@ h1, h2, .nm-name, .nm-score, .rank { font-family: var(--font-head); }
   font-size: 0.7rem; color: var(--muted); font-weight: 700;
   border: 1px solid var(--border); border-radius: 6px; padding: 1px 6px;
 }
+
+/* ============================================================
+   Design polish — "matchday broadcast" pass (layered on top)
+   ============================================================ */
+
+/* Atmosphere: faint pitch lines + an accent glow behind everything,
+   plus a thin broadcast accent strip pinned to the very top. */
+body::before {
+  content: ""; position: fixed; inset: 0; z-index: -1; pointer-events: none;
+  background:
+    repeating-linear-gradient(90deg, transparent 0 71px,
+      color-mix(in srgb, var(--text) 3.5%, transparent) 71px 72px),
+    radial-gradient(85% 45% at 50% 0%, color-mix(in srgb, var(--accent) 7%, transparent), transparent 72%);
+}
+body::after {
+  content: ""; position: fixed; top: 0; left: 0; right: 0; height: 3px; z-index: 50; pointer-events: none;
+  background: linear-gradient(90deg, var(--accent), transparent 55%);
+}
+
+/* Header — scoreboard title + one-time reveal (static chrome only) */
+@keyframes riseIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+.site-header { padding-top: 40px; }
+.site-header h1 {
+  font-size: clamp(2.1rem, 8.5vw, 4rem); font-weight: 800; line-height: 0.92;
+  text-transform: uppercase; letter-spacing: 0.005em; animation: riseIn 0.6s ease both;
+}
+.site-header h1::after {
+  content: ""; display: block; width: 60px; height: 4px; margin: 14px auto 0;
+  border-radius: 2px; background: var(--accent);
+}
+.prizes { animation: riseIn 0.6s ease 0.1s both; }
+.tabs { animation: riseIn 0.6s ease 0.18s both; }
+
+/* Prize pills */
+.prize {
+  background: linear-gradient(180deg, color-mix(in srgb, var(--text) 5%, transparent), transparent), var(--panel);
+  border-radius: 12px; padding: 8px 15px; font-weight: 600; box-shadow: var(--shadow);
+}
+.prize strong { font-family: var(--font-head); font-size: 1.1rem; letter-spacing: 0.02em; }
+
+/* Tabs */
+.tab { transition: transform 0.14s ease, background 0.14s, color 0.14s, border-color 0.14s, box-shadow 0.14s; letter-spacing: 0.02em; }
+.tab:hover { transform: translateY(-1px); }
+.tab.is-active { box-shadow: 0 8px 20px -8px var(--accent); }
+
+/* Cards — layered surface, hairline top sheen, hover lift */
+.card, .nmx {
+  background:
+    linear-gradient(180deg, color-mix(in srgb, var(--text) 4%, transparent), transparent 130px),
+    linear-gradient(180deg, var(--panel-2), var(--panel));
+  border-radius: 16px;
+  transition: transform 0.16s ease, box-shadow 0.16s ease, border-color 0.16s ease;
+}
+.card:hover, .nmx:hover {
+  transform: translateY(-2px); box-shadow: 0 18px 36px -16px rgba(0, 0, 0, 0.7);
+  border-color: color-mix(in srgb, var(--accent) 35%, var(--border));
+}
+.card-head { background: transparent; }
+.card-head h2 { font-family: var(--font-head); text-transform: uppercase; letter-spacing: 0.03em; font-size: 1.2rem; }
+
+/* Standings — scoreboard numerals, hover, qualifying tint */
+.standings .srow { transition: background 0.12s ease; }
+.standings .srow:hover { background: color-mix(in srgb, var(--accent) 7%, transparent); }
+.srow.pos-1 td:first-child, .srow.pos-2 td:first-child { box-shadow: inset 4px 0 0 var(--accent); }
+.srow.pos-1, .srow.pos-2 { background: color-mix(in srgb, var(--accent) 5%, transparent); }
+.standings .pts { font-family: var(--font-head); font-size: 1.1rem; }
+
+/* Match scoreline + broadcast-style team names */
+.nm-score { font-size: 1.5rem; letter-spacing: 0.02em; }
+.nm-name { text-transform: uppercase; letter-spacing: 0.02em; font-size: 0.9rem; }
+
+/* Tables (scorers / shittest) */
+.scorers tbody tr { transition: background 0.12s; }
+.scorers tbody tr:hover { background: color-mix(in srgb, var(--accent) 7%, transparent); }
+.scorers .g { font-family: var(--font-head); font-size: 1.05rem; }
+
+/* Chips */
+.chip { transition: transform 0.12s ease, opacity 0.12s ease, border-color 0.12s, box-shadow 0.12s; }
+.chip:hover { transform: translateY(-1px); }
+
+/* Footer */
+.site-footer { border-top: 1px solid var(--border); margin-top: 10px; padding-top: 22px; }
