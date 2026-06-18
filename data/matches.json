@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18T17:42:25.214Z",
+  "updated": "2026-06-18T19:59:59.444Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -344,13 +344,13 @@
       "stage": "GROUP_STAGE",
       "group": "A",
       "utcDate": "2026-06-18T16:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "matchday": 2,
       "home": "Czechia",
       "away": "South Africa",
       "homeScore": 1,
-      "awayScore": 0,
-      "winner": "HOME_TEAM",
+      "awayScore": 1,
+      "winner": "DRAW",
       "odds": null
     },
     {
