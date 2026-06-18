@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-17T22:01:57.725Z",
+  "updated": "2026-06-18T22:22:47.883Z",
   "competition": "WC",
   "count": 30,
   "scorers": [
@@ -7,6 +7,12 @@
       "player": "Lionel Messi",
       "team": "Argentina",
       "goals": 3,
+      "assists": null
+    },
+    {
+      "player": "Cyle Larin",
+      "team": "Canada",
+      "goals": 2,
       "assists": null
     },
     {
@@ -52,6 +58,12 @@
       "assists": null
     },
     {
+      "player": "Johan Manzambi",
+      "team": "Switzerland",
+      "goals": 2,
+      "assists": null
+    },
+    {
       "player": "Julián Quiñones",
       "team": "Mexico",
       "goals": 1,
@@ -88,12 +100,6 @@
       "assists": null
     },
     {
-      "player": "Cyle Larin",
-      "team": "Canada",
-      "goals": 1,
-      "assists": null
-    },
-    {
       "player": "Mauricio",
       "team": "Paraguay",
       "goals": 1,
@@ -109,7 +115,7 @@
       "player": "Breel Embolo",
       "team": "Switzerland",
       "goals": 1,
-      "assists": null
+      "assists": 1
     },
     {
       "player": "Boualem Khoukhi",
@@ -176,12 +182,6 @@
       "team": "Germany",
       "goals": 1,
       "assists": 1
-    },
-    {
-      "player": "Deniz Undav",
-      "team": "Germany",
-      "goals": 1,
-      "assists": 2
     }
   ]
 }
