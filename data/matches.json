@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-17T23:49:13.125Z",
+  "updated": "2026-06-18T02:06:49.766Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -320,9 +320,9 @@
       "matchday": 1,
       "home": "Ghana",
       "away": "Panama",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "odds": null
     },
     {
@@ -330,13 +330,13 @@
       "stage": "GROUP_STAGE",
       "group": "K",
       "utcDate": "2026-06-18T02:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 1,
       "home": "Uzbekistan",
       "away": "Colombia",
-      "homeScore": null,
-      "awayScore": null,
-      "winner": null,
+      "homeScore": 0,
+      "awayScore": 0,
+      "winner": "DRAW",
       "odds": null
     },
     {
