@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18T07:04:41.181Z",
+  "updated": "2026-06-18T11:16:48.016Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -316,7 +316,7 @@
       "stage": "GROUP_STAGE",
       "group": "L",
       "utcDate": "2026-06-17T23:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "matchday": 1,
       "home": "Ghana",
       "away": "Panama",
