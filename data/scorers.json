@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-19T00:09:34.812Z",
+  "updated": "2026-06-19T22:35:12.019Z",
   "competition": "WC",
   "count": 30,
   "scorers": [
@@ -24,6 +24,12 @@
     {
       "player": "Folarin Balogun",
       "team": "United States",
+      "goals": 2,
+      "assists": null
+    },
+    {
+      "player": "Ismael Saibari",
+      "team": "Morocco",
       "goals": 2,
       "assists": null
     },
@@ -126,12 +132,6 @@
     {
       "player": "Boualem Khoukhi",
       "team": "Qatar",
-      "goals": 1,
-      "assists": null
-    },
-    {
-      "player": "Ismael Saibari",
-      "team": "Morocco",
       "goals": 1,
       "assists": null
     },

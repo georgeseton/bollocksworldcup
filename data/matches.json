@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-19T21:33:27.057Z",
+  "updated": "2026-06-19T22:35:11.739Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -414,13 +414,13 @@
       "stage": "GROUP_STAGE",
       "group": "C",
       "utcDate": "2026-06-19T22:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 2,
       "home": "Scotland",
       "away": "Morocco",
-      "homeScore": null,
-      "awayScore": null,
-      "winner": null,
+      "homeScore": 0,
+      "awayScore": 1,
+      "winner": "AWAY_TEAM",
       "odds": null
     },
     {
