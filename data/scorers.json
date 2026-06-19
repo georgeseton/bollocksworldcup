@@ -1,11 +1,17 @@
 {
-  "updated": "2026-06-18T22:22:47.883Z",
+  "updated": "2026-06-19T00:09:34.812Z",
   "competition": "WC",
   "count": 30,
   "scorers": [
     {
       "player": "Lionel Messi",
       "team": "Argentina",
+      "goals": 3,
+      "assists": null
+    },
+    {
+      "player": "Jonathan David",
+      "team": "Canada",
       "goals": 3,
       "assists": null
     },
@@ -176,12 +182,6 @@
       "team": "Germany",
       "goals": 1,
       "assists": null
-    },
-    {
-      "player": "Nathaniel Brown",
-      "team": "Germany",
-      "goals": 1,
-      "assists": 1
     }
   ]
 }

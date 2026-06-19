@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-18T22:22:47.658Z",
+  "updated": "2026-06-19T00:09:34.595Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -40,9 +40,9 @@
       "matchday": 1,
       "home": "Canada",
       "away": "Bosnia-Herzegovina",
-      "homeScore": null,
-      "awayScore": null,
-      "winner": null,
+      "homeScore": 1,
+      "awayScore": 1,
+      "winner": "DRAW",
       "odds": null
     },
     {
@@ -372,11 +372,11 @@
       "stage": "GROUP_STAGE",
       "group": "B",
       "utcDate": "2026-06-18T22:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "matchday": 2,
       "home": "Canada",
       "away": "Qatar",
-      "homeScore": 1,
+      "homeScore": 6,
       "awayScore": 0,
       "winner": "HOME_TEAM",
       "odds": null
