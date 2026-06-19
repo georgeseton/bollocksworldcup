@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-19T18:17:31.657Z",
+  "updated": "2026-06-19T20:08:04.461Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -400,13 +400,13 @@
       "stage": "GROUP_STAGE",
       "group": "D",
       "utcDate": "2026-06-19T19:00:00Z",
-      "status": "TIMED",
+      "status": "PAUSED",
       "matchday": 2,
       "home": "United States",
       "away": "Australia",
-      "homeScore": null,
-      "awayScore": null,
-      "winner": null,
+      "homeScore": 2,
+      "awayScore": 0,
+      "winner": "HOME_TEAM",
       "odds": null
     },
     {
