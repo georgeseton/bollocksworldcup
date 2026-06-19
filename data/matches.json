@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-19T20:08:04.461Z",
+  "updated": "2026-06-19T21:33:27.057Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -400,7 +400,7 @@
       "stage": "GROUP_STAGE",
       "group": "D",
       "utcDate": "2026-06-19T19:00:00Z",
-      "status": "PAUSED",
+      "status": "FINISHED",
       "matchday": 2,
       "home": "United States",
       "away": "Australia",
