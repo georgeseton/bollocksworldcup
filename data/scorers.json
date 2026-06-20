@@ -1,8 +1,14 @@
 {
-  "updated": "2026-06-20T20:00:06.739Z",
+  "updated": "2026-06-20T22:43:07.001Z",
   "competition": "WC",
   "count": 30,
   "scorers": [
+    {
+      "player": "Deniz Undav",
+      "team": "Germany",
+      "goals": 3,
+      "assists": 2
+    },
     {
       "player": "Lionel Messi",
       "team": "Argentina",
@@ -174,12 +180,6 @@
     {
       "player": "Connor Metcalfe",
       "team": "Australia",
-      "goals": 1,
-      "assists": null
-    },
-    {
-      "player": "Felix Kalu Nmecha",
-      "team": "Germany",
       "goals": 1,
       "assists": null
     }

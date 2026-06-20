@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-20T21:25:30.463Z",
+  "updated": "2026-06-20T22:43:06.811Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -470,13 +470,13 @@
       "stage": "GROUP_STAGE",
       "group": "E",
       "utcDate": "2026-06-20T20:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "matchday": 2,
       "home": "Germany",
       "away": "Ivory Coast",
-      "homeScore": 0,
+      "homeScore": 2,
       "awayScore": 1,
-      "winner": "AWAY_TEAM",
+      "winner": "HOME_TEAM",
       "odds": null
     },
     {
