@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-19T22:35:12.019Z",
+  "updated": "2026-06-20T01:55:05.495Z",
   "competition": "WC",
   "count": 30,
   "scorers": [
@@ -32,6 +32,12 @@
       "team": "Morocco",
       "goals": 2,
       "assists": null
+    },
+    {
+      "player": "Vinicius Junior",
+      "team": "Brazil",
+      "goals": 2,
+      "assists": 2
     },
     {
       "player": "Kai Havertz",
@@ -72,6 +78,12 @@
     {
       "player": "Johan Manzambi",
       "team": "Switzerland",
+      "goals": 2,
+      "assists": null
+    },
+    {
+      "player": "Matheus Cunha",
+      "team": "Brazil",
       "goals": 2,
       "assists": null
     },
@@ -136,12 +148,6 @@
       "assists": null
     },
     {
-      "player": "Vinicius Junior",
-      "team": "Brazil",
-      "goals": 1,
-      "assists": null
-    },
-    {
       "player": "John McGinn",
       "team": "Scotland",
       "goals": 1,
@@ -173,12 +179,6 @@
     },
     {
       "player": "Nico Schlotterbeck",
-      "team": "Germany",
-      "goals": 1,
-      "assists": null
-    },
-    {
-      "player": "Jamal Musiala",
       "team": "Germany",
       "goals": 1,
       "assists": null

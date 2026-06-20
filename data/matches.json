@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-19T22:35:11.739Z",
+  "updated": "2026-06-20T01:55:05.137Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -414,7 +414,7 @@
       "stage": "GROUP_STAGE",
       "group": "C",
       "utcDate": "2026-06-19T22:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "matchday": 2,
       "home": "Scotland",
       "away": "Morocco",
@@ -428,13 +428,13 @@
       "stage": "GROUP_STAGE",
       "group": "C",
       "utcDate": "2026-06-20T00:30:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 2,
       "home": "Brazil",
       "away": "Haiti",
-      "homeScore": null,
-      "awayScore": null,
-      "winner": null,
+      "homeScore": 3,
+      "awayScore": 0,
+      "winner": "HOME_TEAM",
       "odds": null
     },
     {
