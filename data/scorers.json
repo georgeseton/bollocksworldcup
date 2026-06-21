@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-21T17:07:19.293Z",
+  "updated": "2026-06-21T22:54:46.344Z",
   "competition": "WC",
   "count": 30,
   "scorers": [
@@ -62,6 +62,12 @@
       "team": "Sweden",
       "goals": 2,
       "assists": null
+    },
+    {
+      "player": "Maximiliano Araújo",
+      "team": "Uruguay",
+      "goals": 2,
+      "assists": 1
     },
     {
       "player": "Elijah Just",
@@ -176,12 +182,6 @@
       "team": "Switzerland",
       "goals": 1,
       "assists": 1
-    },
-    {
-      "player": "Boualem Khoukhi",
-      "team": "Qatar",
-      "goals": 1,
-      "assists": null
     }
   ]
 }

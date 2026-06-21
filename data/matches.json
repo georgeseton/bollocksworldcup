@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-21T21:48:06.482Z",
+  "updated": "2026-06-21T22:54:46.079Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -540,13 +540,13 @@
       "stage": "GROUP_STAGE",
       "group": "H",
       "utcDate": "2026-06-21T22:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 2,
       "home": "Uruguay",
       "away": "Cape Verde Islands",
-      "homeScore": null,
-      "awayScore": null,
-      "winner": null,
+      "homeScore": 1,
+      "awayScore": 1,
+      "winner": "DRAW",
       "odds": null
     },
     {
