@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-20T22:43:07.001Z",
+  "updated": "2026-06-21T04:23:38.788Z",
   "competition": "WC",
   "count": 30,
   "scorers": [
@@ -48,6 +48,12 @@
     {
       "player": "Kai Havertz",
       "team": "Germany",
+      "goals": 2,
+      "assists": null
+    },
+    {
+      "player": "Daichi Kamada",
+      "team": "Japan",
       "goals": 2,
       "assists": null
     },
@@ -173,12 +179,6 @@
     },
     {
       "player": "Nestor Irankunda",
-      "team": "Australia",
-      "goals": 1,
-      "assists": null
-    },
-    {
-      "player": "Connor Metcalfe",
       "team": "Australia",
       "goals": 1,
       "assists": null
