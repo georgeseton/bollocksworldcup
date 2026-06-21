@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-21T04:23:38.535Z",
+  "updated": "2026-06-21T08:46:09.953Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -498,12 +498,12 @@
       "stage": "GROUP_STAGE",
       "group": "F",
       "utcDate": "2026-06-21T04:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "matchday": 2,
       "home": "Tunisia",
       "away": "Japan",
       "homeScore": 0,
-      "awayScore": 1,
+      "awayScore": 4,
       "winner": "AWAY_TEAM",
       "odds": null
     },
