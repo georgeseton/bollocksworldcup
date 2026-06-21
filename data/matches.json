@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-21T18:48:29.324Z",
+  "updated": "2026-06-21T20:19:03.728Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -526,13 +526,13 @@
       "stage": "GROUP_STAGE",
       "group": "G",
       "utcDate": "2026-06-21T19:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 2,
       "home": "Belgium",
       "away": "Iran",
-      "homeScore": null,
-      "awayScore": null,
-      "winner": null,
+      "homeScore": 0,
+      "awayScore": 0,
+      "winner": "DRAW",
       "odds": null
     },
     {
