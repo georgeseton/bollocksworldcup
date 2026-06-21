@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-21T08:46:09.953Z",
+  "updated": "2026-06-21T17:07:19.032Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -512,13 +512,13 @@
       "stage": "GROUP_STAGE",
       "group": "H",
       "utcDate": "2026-06-21T16:00:00Z",
-      "status": "TIMED",
+      "status": "PAUSED",
       "matchday": 2,
       "home": "Spain",
       "away": "Saudi Arabia",
-      "homeScore": null,
-      "awayScore": null,
-      "winner": null,
+      "homeScore": 3,
+      "awayScore": 0,
+      "winner": "HOME_TEAM",
       "odds": null
     },
     {

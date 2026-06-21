@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-21T08:46:10.252Z",
+  "updated": "2026-06-21T17:07:19.293Z",
   "competition": "WC",
   "count": 30,
   "scorers": [
@@ -118,6 +118,12 @@
       "assists": 1
     },
     {
+      "player": "Mikel Oyarzabal",
+      "team": "Spain",
+      "goals": 2,
+      "assists": 1
+    },
+    {
       "player": "Julián Quiñones",
       "team": "Mexico",
       "goals": 1,
@@ -174,12 +180,6 @@
     {
       "player": "Boualem Khoukhi",
       "team": "Qatar",
-      "goals": 1,
-      "assists": null
-    },
-    {
-      "player": "John McGinn",
-      "team": "Scotland",
       "goals": 1,
       "assists": null
     }
