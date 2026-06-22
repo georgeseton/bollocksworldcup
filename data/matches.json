@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-22T05:34:57.834Z",
+  "updated": "2026-06-22T11:19:35.315Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -40,9 +40,9 @@
       "matchday": 1,
       "home": "Canada",
       "away": "Bosnia-Herzegovina",
-      "homeScore": 1,
-      "awayScore": 1,
-      "winner": "DRAW",
+      "homeScore": null,
+      "awayScore": null,
+      "winner": null,
       "odds": null
     },
     {
