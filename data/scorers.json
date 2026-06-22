@@ -1,19 +1,19 @@
 {
-  "updated": "2026-06-21T22:54:46.344Z",
+  "updated": "2026-06-22T19:45:30.348Z",
   "competition": "WC",
   "count": 30,
   "scorers": [
+    {
+      "player": "Lionel Messi",
+      "team": "Argentina",
+      "goals": 5,
+      "assists": null
+    },
     {
       "player": "Deniz Undav",
       "team": "Germany",
       "goals": 3,
       "assists": 2
-    },
-    {
-      "player": "Lionel Messi",
-      "team": "Argentina",
-      "goals": 3,
-      "assists": null
     },
     {
       "player": "Jonathan David",
