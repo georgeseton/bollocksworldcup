@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-22T00:13:34.596Z",
+  "updated": "2026-06-22T05:34:57.834Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -554,13 +554,13 @@
       "stage": "GROUP_STAGE",
       "group": "G",
       "utcDate": "2026-06-22T01:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "matchday": 2,
       "home": "New Zealand",
       "away": "Egypt",
-      "homeScore": null,
-      "awayScore": null,
-      "winner": null,
+      "homeScore": 1,
+      "awayScore": 3,
+      "winner": "AWAY_TEAM",
       "odds": null
     },
     {
