@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-22T19:45:30.073Z",
+  "updated": "2026-06-22T21:51:37.745Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -582,13 +582,13 @@
       "stage": "GROUP_STAGE",
       "group": "I",
       "utcDate": "2026-06-22T21:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 2,
       "home": "France",
       "away": "Iraq",
-      "homeScore": null,
-      "awayScore": null,
-      "winner": null,
+      "homeScore": 1,
+      "awayScore": 0,
+      "winner": "HOME_TEAM",
       "odds": null
     },
     {
