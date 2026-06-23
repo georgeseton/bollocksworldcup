@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-23T01:30:59.615Z",
+  "updated": "2026-06-23T05:50:26.552Z",
   "competition": "WC",
   "count": 30,
   "scorers": [
@@ -130,6 +130,12 @@
       "assists": 1
     },
     {
+      "player": "Ismaïla Sarr",
+      "team": "Senegal",
+      "goals": 2,
+      "assists": null
+    },
+    {
       "player": "Julián Quiñones",
       "team": "Mexico",
       "goals": 1,
@@ -176,12 +182,6 @@
       "team": "United States",
       "goals": 1,
       "assists": null
-    },
-    {
-      "player": "Breel Embolo",
-      "team": "Switzerland",
-      "goals": 1,
-      "assists": 1
     }
   ]
 }
