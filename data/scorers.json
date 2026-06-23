@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-23T19:28:46.220Z",
+  "updated": "2026-06-23T21:16:04.580Z",
   "competition": "WC",
   "count": 30,
   "scorers": [
@@ -142,6 +142,12 @@
       "assists": null
     },
     {
+      "player": "Cristiano Ronaldo",
+      "team": "Portugal",
+      "goals": 2,
+      "assists": null
+    },
+    {
       "player": "Julián Quiñones",
       "team": "Mexico",
       "goals": 1,
@@ -174,12 +180,6 @@
     {
       "player": "Jovo Lukić",
       "team": "Bosnia-Herzegovina",
-      "goals": 1,
-      "assists": null
-    },
-    {
-      "player": "Mauricio",
-      "team": "Paraguay",
       "goals": 1,
       "assists": null
     }

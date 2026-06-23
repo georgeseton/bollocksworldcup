@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-23T19:28:45.977Z",
+  "updated": "2026-06-23T21:16:03.923Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -638,13 +638,13 @@
       "stage": "GROUP_STAGE",
       "group": "L",
       "utcDate": "2026-06-23T20:00:00Z",
-      "status": "TIMED",
+      "status": "LIVE",
       "matchday": 2,
       "home": "England",
       "away": "Ghana",
-      "homeScore": null,
-      "awayScore": null,
-      "winner": null,
+      "homeScore": 0,
+      "awayScore": 0,
+      "winner": "DRAW",
       "odds": null
     },
     {
