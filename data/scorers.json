@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-23T05:50:26.552Z",
+  "updated": "2026-06-23T12:25:52.236Z",
   "competition": "WC",
   "count": 30,
   "scorers": [
@@ -64,6 +64,12 @@
       "assists": null
     },
     {
+      "player": "Crysencio Summerville",
+      "team": "Netherlands",
+      "goals": 2,
+      "assists": 1
+    },
+    {
       "player": "Daichi Kamada",
       "team": "Japan",
       "goals": 2,
@@ -115,7 +121,7 @@
       "player": "Cody Gakpo",
       "team": "Netherlands",
       "goals": 2,
-      "assists": 2
+      "assists": 1
     },
     {
       "player": "Ayase Ueda",
@@ -174,12 +180,6 @@
     {
       "player": "Mauricio",
       "team": "Paraguay",
-      "goals": 1,
-      "assists": null
-    },
-    {
-      "player": "Gio Reyna",
-      "team": "United States",
       "goals": 1,
       "assists": null
     }
