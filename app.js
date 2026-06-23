@@ -347,25 +347,45 @@ function prettyStage(s) {
   return (s || "").replace(/_/g, " ").toLowerCase().replace(/\b\w/g, (c) => c.toUpperCase());
 }
 
+// Group a list of matches by calendar day and render each day's cards.
+function fixtureDays(list) {
+  const days = new Map();
+  for (const m of list) {
+    const key = m.utcDate
+      ? new Date(m.utcDate).toLocaleDateString(undefined, { weekday: "short", month: "short", day: "numeric" })
+      : "Date TBD";
+    (days.get(key) || days.set(key, []).get(key)).push(m);
+  }
+  return [...days].map(([day, ms]) => `
+    <div class="fx-day">
+      <h3 class="fx-date">${day}</h3>
+      <div class="nmx-list">${ms.map(matchCard).join("")}</div>
+    </div>`).join("");
+}
+
 function renderFixtures() {
   const el = document.getElementById("view-fixtures");
   if (!state.matches.length) {
     el.innerHTML = `<p class="empty">Fixtures will appear here once the schedule is published.</p>`;
     return;
   }
+  // Keep the user's expanded/collapsed choice across the 30s auto-refresh.
+  const wasOpen = el.querySelector(".past-fixtures")?.open;
+
   const sorted = [...state.matches].sort((a, b) => (a.utcDate || "").localeCompare(b.utcDate || ""));
-  const days = new Map();
-  for (const m of sorted) {
-    const key = m.utcDate
-      ? new Date(m.utcDate).toLocaleDateString(undefined, { weekday: "short", month: "short", day: "numeric" })
-      : "Date TBD";
-    (days.get(key) || days.set(key, []).get(key)).push(m);
-  }
-  el.innerHTML = [...days].map(([day, ms]) => `
-    <div class="fx-day">
-      <h3 class="fx-date">${day}</h3>
-      <div class="nmx-list">${ms.map(matchCard).join("")}</div>
-    </div>`).join("");
+  // Anything that kicked off more than 2 days ago is tucked away to de-clutter.
+  const cutoff = Date.now() - 2 * 24 * 60 * 60 * 1000;
+  const past = [], current = [];
+  for (const m of sorted) (m.utcDate && new Date(m.utcDate).getTime() < cutoff ? past : current).push(m);
+
+  const pastHtml = past.length
+    ? `<details class="past-fixtures"${wasOpen ? " open" : ""}>
+         <summary>Past fixtures <span class="pf-count">${past.length}</span></summary>
+         <div class="pf-body">${fixtureDays(past)}</div>
+       </details>`
+    : "";
+
+  el.innerHTML = pastHtml + fixtureDays(current);
 }
 
 // "Shittest Team" — every team ranked by goals conceded (most first), with owner.
