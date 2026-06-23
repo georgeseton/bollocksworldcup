@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-23T17:28:41.163Z",
+  "updated": "2026-06-23T19:28:45.977Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -624,11 +624,11 @@
       "stage": "GROUP_STAGE",
       "group": "K",
       "utcDate": "2026-06-23T17:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "matchday": 2,
       "home": "Portugal",
       "away": "Uzbekistan",
-      "homeScore": 2,
+      "homeScore": 5,
       "awayScore": 0,
       "winner": "HOME_TEAM",
       "odds": null
