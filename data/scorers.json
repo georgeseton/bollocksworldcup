@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-22T21:51:38.012Z",
+  "updated": "2026-06-23T01:30:59.615Z",
   "competition": "WC",
   "count": 30,
   "scorers": [
@@ -10,16 +10,22 @@
       "assists": null
     },
     {
+      "player": "Kylian Mbappé",
+      "team": "France",
+      "goals": 4,
+      "assists": null
+    },
+    {
+      "player": "Erling Haaland",
+      "team": "Norway",
+      "goals": 4,
+      "assists": null
+    },
+    {
       "player": "Deniz Undav",
       "team": "Germany",
       "goals": 3,
       "assists": 2
-    },
-    {
-      "player": "Kylian Mbappé",
-      "team": "France",
-      "goals": 3,
-      "assists": null
     },
     {
       "player": "Jonathan David",
@@ -78,12 +84,6 @@
     {
       "player": "Elijah Just",
       "team": "New Zealand",
-      "goals": 2,
-      "assists": null
-    },
-    {
-      "player": "Erling Haaland",
-      "team": "Norway",
       "goals": 2,
       "assists": null
     },
