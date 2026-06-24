@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-23T23:43:04.936Z",
+  "updated": "2026-06-24T01:48:21.576Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -652,13 +652,13 @@
       "stage": "GROUP_STAGE",
       "group": "L",
       "utcDate": "2026-06-23T23:00:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "matchday": 2,
       "home": "Panama",
       "away": "Croatia",
       "homeScore": 0,
-      "awayScore": 0,
-      "winner": "DRAW",
+      "awayScore": 1,
+      "winner": "AWAY_TEAM",
       "odds": null
     },
     {
