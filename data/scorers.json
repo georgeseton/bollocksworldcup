@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-23T21:16:04.580Z",
+  "updated": "2026-06-24T05:53:24.078Z",
   "competition": "WC",
   "count": 30,
   "scorers": [
@@ -100,6 +100,12 @@
       "assists": null
     },
     {
+      "player": "Daniel Muñoz",
+      "team": "Colombia",
+      "goals": 2,
+      "assists": null
+    },
+    {
       "player": "Johan Manzambi",
       "team": "Switzerland",
       "goals": 2,
@@ -174,12 +180,6 @@
     {
       "player": "Hyun-Gyu Oh",
       "team": "South Korea",
-      "goals": 1,
-      "assists": null
-    },
-    {
-      "player": "Jovo Lukić",
-      "team": "Bosnia-Herzegovina",
       "goals": 1,
       "assists": null
     }
