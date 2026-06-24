@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24T22:19:02.035Z",
+  "updated": "2026-06-24T23:37:52.659Z",
   "competition": "WC",
   "count": 30,
   "scorers": [
@@ -8,6 +8,12 @@
       "team": "Argentina",
       "goals": 5,
       "assists": null
+    },
+    {
+      "player": "Vinicius Junior",
+      "team": "Brazil",
+      "goals": 4,
+      "assists": 1
     },
     {
       "player": "Kylian Mbappé",
@@ -22,10 +28,10 @@
       "assists": null
     },
     {
-      "player": "Vinicius Junior",
-      "team": "Brazil",
+      "player": "Ismael Saibari",
+      "team": "Morocco",
       "goals": 3,
-      "assists": 1
+      "assists": null
     },
     {
       "player": "Deniz Undav",
@@ -46,6 +52,12 @@
       "assists": null
     },
     {
+      "player": "Matheus Cunha",
+      "team": "Brazil",
+      "goals": 3,
+      "assists": null
+    },
+    {
       "player": "Cyle Larin",
       "team": "Canada",
       "goals": 2,
@@ -54,12 +66,6 @@
     {
       "player": "Folarin Balogun",
       "team": "United States",
-      "goals": 2,
-      "assists": null
-    },
-    {
-      "player": "Ismael Saibari",
-      "team": "Morocco",
       "goals": 2,
       "assists": null
     },
@@ -120,12 +126,6 @@
     {
       "player": "Ermin Mahmic",
       "team": "Bosnia-Herzegovina",
-      "goals": 2,
-      "assists": null
-    },
-    {
-      "player": "Matheus Cunha",
-      "team": "Brazil",
       "goals": 2,
       "assists": null
     },
