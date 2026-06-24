@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24T05:53:24.078Z",
+  "updated": "2026-06-24T20:54:28.398Z",
   "competition": "WC",
   "count": 30,
   "scorers": [
@@ -26,6 +26,12 @@
       "team": "Germany",
       "goals": 3,
       "assists": 2
+    },
+    {
+      "player": "Johan Manzambi",
+      "team": "Switzerland",
+      "goals": 3,
+      "assists": 1
     },
     {
       "player": "Jonathan David",
@@ -106,8 +112,14 @@
       "assists": null
     },
     {
-      "player": "Johan Manzambi",
+      "player": "Ruben Vargas",
       "team": "Switzerland",
+      "goals": 2,
+      "assists": 1
+    },
+    {
+      "player": "Ermin Mahmic",
+      "team": "Bosnia-Herzegovina",
       "goals": 2,
       "assists": null
     },
@@ -168,18 +180,6 @@
     {
       "player": "Ladislav Krejčí",
       "team": "Czechia",
-      "goals": 1,
-      "assists": null
-    },
-    {
-      "player": "In-beom Hwang",
-      "team": "South Korea",
-      "goals": 1,
-      "assists": 1
-    },
-    {
-      "player": "Hyun-Gyu Oh",
-      "team": "South Korea",
       "goals": 1,
       "assists": null
     }
