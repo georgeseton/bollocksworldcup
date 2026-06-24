@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24T20:54:28.398Z",
+  "updated": "2026-06-24T22:19:02.035Z",
   "competition": "WC",
   "count": 30,
   "scorers": [
@@ -20,6 +20,12 @@
       "team": "Norway",
       "goals": 4,
       "assists": null
+    },
+    {
+      "player": "Vinicius Junior",
+      "team": "Brazil",
+      "goals": 3,
+      "assists": 1
     },
     {
       "player": "Deniz Undav",
@@ -56,12 +62,6 @@
       "team": "Morocco",
       "goals": 2,
       "assists": null
-    },
-    {
-      "player": "Vinicius Junior",
-      "team": "Brazil",
-      "goals": 2,
-      "assists": 1
     },
     {
       "player": "Kai Havertz",
