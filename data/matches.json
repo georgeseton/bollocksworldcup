@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-25T21:12:20.408Z",
+  "updated": "2026-06-25T22:50:48.572Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -764,13 +764,13 @@
       "stage": "GROUP_STAGE",
       "group": "E",
       "utcDate": "2026-06-25T20:00:00Z",
-      "status": "IN_PLAY",
+      "status": "TIMED",
       "matchday": 3,
       "home": "Ecuador",
       "away": "Germany",
-      "homeScore": 1,
-      "awayScore": 1,
-      "winner": "DRAW",
+      "homeScore": null,
+      "awayScore": null,
+      "winner": null,
       "odds": null
     },
     {
@@ -778,13 +778,13 @@
       "stage": "GROUP_STAGE",
       "group": "E",
       "utcDate": "2026-06-25T20:00:00Z",
-      "status": "LIVE",
+      "status": "TIMED",
       "matchday": 3,
       "home": "Curaçao",
       "away": "Ivory Coast",
-      "homeScore": 0,
-      "awayScore": 1,
-      "winner": "AWAY_TEAM",
+      "homeScore": null,
+      "awayScore": null,
+      "winner": null,
       "odds": null
     },
     {
