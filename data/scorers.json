@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-24T23:37:52.659Z",
+  "updated": "2026-06-25T05:50:47.597Z",
   "competition": "WC",
   "count": 30,
   "scorers": [
@@ -55,6 +55,12 @@
       "player": "Matheus Cunha",
       "team": "Brazil",
       "goals": 3,
+      "assists": null
+    },
+    {
+      "player": "Julián Quiñones",
+      "team": "Mexico",
+      "goals": 2,
       "assists": null
     },
     {
@@ -163,12 +169,6 @@
       "player": "Cristiano Ronaldo",
       "team": "Portugal",
       "goals": 2,
-      "assists": null
-    },
-    {
-      "player": "Julián Quiñones",
-      "team": "Mexico",
-      "goals": 1,
       "assists": null
     },
     {
