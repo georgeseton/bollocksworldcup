@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T21:06:51.537Z",
+  "updated": "2026-06-26T22:22:25.711Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -862,7 +862,7 @@
       "stage": "GROUP_STAGE",
       "group": "I",
       "utcDate": "2026-06-26T19:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "matchday": 3,
       "home": "Senegal",
       "away": "Iraq",
