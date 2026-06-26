@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T00:11:06.477Z",
+  "updated": "2026-06-26T04:43:48.337Z",
   "competition": "WC",
   "count": 30,
   "scorers": [
@@ -148,6 +148,12 @@
       "assists": 1
     },
     {
+      "player": "Anthony Elanga",
+      "team": "Sweden",
+      "goals": 2,
+      "assists": null
+    },
+    {
       "player": "Ayase Ueda",
       "team": "Japan",
       "goals": 2,
@@ -175,12 +181,6 @@
       "player": "Nicolas Pépé",
       "team": "Ivory Coast",
       "goals": 2,
-      "assists": null
-    },
-    {
-      "player": "Raúl Jiménez",
-      "team": "Mexico",
-      "goals": 1,
       "assists": null
     }
   ]
