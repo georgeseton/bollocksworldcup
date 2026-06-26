@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T04:43:48.337Z",
+  "updated": "2026-06-26T19:25:05.457Z",
   "competition": "WC",
   "count": 30,
   "scorers": [
@@ -19,7 +19,7 @@
       "player": "Kylian Mbappé",
       "team": "France",
       "goals": 4,
-      "assists": null
+      "assists": 1
     },
     {
       "player": "Erling Haaland",
@@ -62,6 +62,12 @@
       "team": "Netherlands",
       "goals": 3,
       "assists": null
+    },
+    {
+      "player": "Ousmane Dembélé",
+      "team": "France",
+      "goals": 3,
+      "assists": 1
     },
     {
       "player": "Julián Quiñones",
@@ -174,12 +180,6 @@
     {
       "player": "Cristiano Ronaldo",
       "team": "Portugal",
-      "goals": 2,
-      "assists": null
-    },
-    {
-      "player": "Nicolas Pépé",
-      "team": "Ivory Coast",
       "goals": 2,
       "assists": null
     }
