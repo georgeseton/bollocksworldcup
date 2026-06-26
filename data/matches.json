@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-25T22:50:48.572Z",
+  "updated": "2026-06-26T00:11:05.921Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -764,13 +764,13 @@
       "stage": "GROUP_STAGE",
       "group": "E",
       "utcDate": "2026-06-25T20:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "matchday": 3,
       "home": "Ecuador",
       "away": "Germany",
-      "homeScore": null,
-      "awayScore": null,
-      "winner": null,
+      "homeScore": 2,
+      "awayScore": 1,
+      "winner": "HOME_TEAM",
       "odds": null
     },
     {
@@ -778,13 +778,13 @@
       "stage": "GROUP_STAGE",
       "group": "E",
       "utcDate": "2026-06-25T20:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "matchday": 3,
       "home": "Curaçao",
       "away": "Ivory Coast",
-      "homeScore": null,
-      "awayScore": null,
-      "winner": null,
+      "homeScore": 0,
+      "awayScore": 2,
+      "winner": "AWAY_TEAM",
       "odds": null
     },
     {
@@ -792,13 +792,13 @@
       "stage": "GROUP_STAGE",
       "group": "F",
       "utcDate": "2026-06-25T23:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": 3,
       "home": "Tunisia",
       "away": "Netherlands",
-      "homeScore": null,
-      "awayScore": null,
-      "winner": null,
+      "homeScore": 0,
+      "awayScore": 2,
+      "winner": "AWAY_TEAM",
       "odds": null
     },
     {
@@ -806,13 +806,13 @@
       "stage": "GROUP_STAGE",
       "group": "F",
       "utcDate": "2026-06-25T23:00:00Z",
-      "status": "TIMED",
+      "status": "LIVE",
       "matchday": 3,
       "home": "Japan",
       "away": "Sweden",
-      "homeScore": null,
-      "awayScore": null,
-      "winner": null,
+      "homeScore": 0,
+      "awayScore": 0,
+      "winner": "DRAW",
       "odds": null
     },
     {

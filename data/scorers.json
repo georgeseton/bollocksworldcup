@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-25T22:50:48.770Z",
+  "updated": "2026-06-26T00:11:06.477Z",
   "competition": "WC",
   "count": 30,
   "scorers": [
@@ -54,6 +54,12 @@
     {
       "player": "Matheus Cunha",
       "team": "Brazil",
+      "goals": 3,
+      "assists": null
+    },
+    {
+      "player": "Brian Brobbey",
+      "team": "Netherlands",
       "goals": 3,
       "assists": null
     },
@@ -132,12 +138,6 @@
     {
       "player": "Ermin Mahmic",
       "team": "Bosnia-Herzegovina",
-      "goals": 2,
-      "assists": null
-    },
-    {
-      "player": "Brian Brobbey",
-      "team": "Netherlands",
       "goals": 2,
       "assists": null
     },
