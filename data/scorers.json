@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26T21:06:51.775Z",
+  "updated": "2026-06-27T05:40:59.756Z",
   "competition": "WC",
   "count": 30,
   "scorers": [
@@ -44,6 +44,12 @@
       "team": "Germany",
       "goals": 3,
       "assists": 2
+    },
+    {
+      "player": "Elijah Just",
+      "team": "New Zealand",
+      "goals": 3,
+      "assists": null
     },
     {
       "player": "Johan Manzambi",
@@ -124,10 +130,10 @@
       "assists": 1
     },
     {
-      "player": "Elijah Just",
-      "team": "New Zealand",
+      "player": "Ramin Rezaeian",
+      "team": "Iran",
       "goals": 2,
-      "assists": null
+      "assists": 1
     },
     {
       "player": "Harry Kane",
@@ -176,12 +182,6 @@
       "team": "Spain",
       "goals": 2,
       "assists": 1
-    },
-    {
-      "player": "Cristiano Ronaldo",
-      "team": "Portugal",
-      "goals": 2,
-      "assists": null
     }
   ]
 }
