@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T22:41:50.200Z",
+  "updated": "2026-06-27T23:45:09.877Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -932,7 +932,7 @@
       "stage": "GROUP_STAGE",
       "group": "L",
       "utcDate": "2026-06-27T21:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "matchday": 3,
       "home": "Panama",
       "away": "England",
@@ -946,13 +946,13 @@
       "stage": "GROUP_STAGE",
       "group": "L",
       "utcDate": "2026-06-27T21:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "matchday": 3,
       "home": "Croatia",
       "away": "Ghana",
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 1,
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "odds": null
     },
     {
@@ -960,13 +960,13 @@
       "stage": "GROUP_STAGE",
       "group": "K",
       "utcDate": "2026-06-27T23:30:00Z",
-      "status": "TIMED",
+      "status": "LIVE",
       "matchday": 3,
       "home": "Colombia",
       "away": "Portugal",
-      "homeScore": null,
-      "awayScore": null,
-      "winner": null,
+      "homeScore": 0,
+      "awayScore": 0,
+      "winner": "DRAW",
       "odds": null
     },
     {
@@ -974,13 +974,13 @@
       "stage": "GROUP_STAGE",
       "group": "K",
       "utcDate": "2026-06-27T23:30:00Z",
-      "status": "TIMED",
+      "status": "LIVE",
       "matchday": 3,
       "home": "Congo DR",
       "away": "Uzbekistan",
-      "homeScore": null,
-      "awayScore": null,
-      "winner": null,
+      "homeScore": 0,
+      "awayScore": 0,
+      "winner": "DRAW",
       "odds": null
     },
     {
