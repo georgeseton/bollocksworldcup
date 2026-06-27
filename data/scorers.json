@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-27T05:40:59.756Z",
+  "updated": "2026-06-27T22:41:50.677Z",
   "competition": "WC",
   "count": 30,
   "scorers": [
@@ -48,6 +48,12 @@
     {
       "player": "Elijah Just",
       "team": "New Zealand",
+      "goals": 3,
+      "assists": null
+    },
+    {
+      "player": "Harry Kane",
+      "team": "England",
       "goals": 3,
       "assists": null
     },
@@ -136,10 +142,10 @@
       "assists": 1
     },
     {
-      "player": "Harry Kane",
+      "player": "Jude Bellingham",
       "team": "England",
       "goals": 2,
-      "assists": null
+      "assists": 1
     },
     {
       "player": "Daniel Muñoz",
@@ -174,12 +180,6 @@
     {
       "player": "Ayase Ueda",
       "team": "Japan",
-      "goals": 2,
-      "assists": 1
-    },
-    {
-      "player": "Mikel Oyarzabal",
-      "team": "Spain",
       "goals": 2,
       "assists": 1
     }
