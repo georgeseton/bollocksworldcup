@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28T06:23:24.975Z",
+  "updated": "2026-06-28T20:03:02.502Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -1016,13 +1016,13 @@
       "stage": "LAST_32",
       "group": null,
       "utcDate": "2026-06-28T19:00:00Z",
-      "status": "TIMED",
+      "status": "PAUSED",
       "matchday": null,
       "home": "South Africa",
       "away": "Canada",
-      "homeScore": null,
-      "awayScore": null,
-      "winner": null,
+      "homeScore": 0,
+      "awayScore": 0,
+      "winner": "DRAW",
       "odds": null
     },
     {
