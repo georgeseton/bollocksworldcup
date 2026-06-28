@@ -1,12 +1,12 @@
 {
-  "updated": "2026-06-28T01:56:04.187Z",
+  "updated": "2026-06-28T06:23:25.667Z",
   "competition": "WC",
   "count": 30,
   "scorers": [
     {
       "player": "Lionel Messi",
       "team": "Argentina",
-      "goals": 5,
+      "goals": 6,
       "assists": null
     },
     {
@@ -148,6 +148,12 @@
       "assists": 1
     },
     {
+      "player": "Marko Arnautovic",
+      "team": "Austria",
+      "goals": 2,
+      "assists": null
+    },
+    {
       "player": "Jude Bellingham",
       "team": "England",
       "goals": 2,
@@ -176,12 +182,6 @@
       "team": "Netherlands",
       "goals": 2,
       "assists": 1
-    },
-    {
-      "player": "Anthony Elanga",
-      "team": "Sweden",
-      "goals": 2,
-      "assists": null
     }
   ]
 }
