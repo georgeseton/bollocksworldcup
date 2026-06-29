@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-29T07:00:24.956Z",
+  "updated": "2026-06-29T18:26:20.459Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -1030,13 +1030,13 @@
       "stage": "LAST_32",
       "group": null,
       "utcDate": "2026-06-29T17:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": null,
       "home": "Brazil",
       "away": "Japan",
-      "homeScore": null,
-      "awayScore": null,
-      "winner": null,
+      "homeScore": 1,
+      "awayScore": 1,
+      "winner": "DRAW",
       "odds": null
     },
     {
