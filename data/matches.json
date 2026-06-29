@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-29T21:53:26.028Z",
+  "updated": "2026-06-29T23:00:04.804Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -1044,13 +1044,13 @@
       "stage": "LAST_32",
       "group": null,
       "utcDate": "2026-06-29T20:30:00Z",
-      "status": "IN_PLAY",
+      "status": "PAUSED",
       "matchday": null,
       "home": "Germany",
       "away": "Paraguay",
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 1,
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "odds": null
     },
     {
