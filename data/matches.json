@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-30T04:38:05.890Z",
+  "updated": "2026-06-30T08:19:42.621Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -1050,7 +1050,7 @@
       "away": "Paraguay",
       "homeScore": 4,
       "awayScore": 5,
-      "winner": null,
+      "winner": "AWAY_TEAM",
       "odds": null
     },
     {
@@ -1062,9 +1062,9 @@
       "matchday": null,
       "home": "Netherlands",
       "away": "Morocco",
-      "homeScore": 4,
+      "homeScore": 3,
       "awayScore": 4,
-      "winner": null,
+      "winner": "AWAY_TEAM",
       "odds": null
     },
     {
@@ -1243,7 +1243,7 @@
       "status": "TIMED",
       "matchday": null,
       "home": "Canada",
-      "away": null,
+      "away": "Morocco",
       "homeScore": null,
       "awayScore": null,
       "winner": null,
@@ -1256,7 +1256,7 @@
       "utcDate": "2026-07-04T21:00:00Z",
       "status": "TIMED",
       "matchday": null,
-      "home": null,
+      "home": "Paraguay",
       "away": null,
       "homeScore": null,
       "awayScore": null,
@@ -1270,7 +1270,7 @@
       "utcDate": "2026-07-05T20:00:00Z",
       "status": "TIMED",
       "matchday": null,
-      "home": null,
+      "home": "Brazil",
       "away": null,
       "homeScore": null,
       "awayScore": null,
