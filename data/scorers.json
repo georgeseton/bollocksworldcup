@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-30T04:38:06.828Z",
+  "updated": "2026-06-30T20:23:09.464Z",
   "competition": "WC",
   "count": 30,
   "scorers": [
@@ -7,6 +7,12 @@
       "player": "Lionel Messi",
       "team": "Argentina",
       "goals": 6,
+      "assists": null
+    },
+    {
+      "player": "Erling Haaland",
+      "team": "Norway",
+      "goals": 5,
       "assists": null
     },
     {
@@ -20,12 +26,6 @@
       "team": "France",
       "goals": 4,
       "assists": 2
-    },
-    {
-      "player": "Erling Haaland",
-      "team": "Norway",
-      "goals": 4,
-      "assists": null
     },
     {
       "player": "Ousmane Dembélé",
@@ -136,6 +136,12 @@
       "assists": null
     },
     {
+      "player": "Amad Diallo",
+      "team": "Ivory Coast",
+      "goals": 2,
+      "assists": null
+    },
+    {
       "player": "Yasin Ayari",
       "team": "Sweden",
       "goals": 2,
@@ -176,12 +182,6 @@
       "team": "Switzerland",
       "goals": 2,
       "assists": 1
-    },
-    {
-      "player": "Ermin Mahmic",
-      "team": "Bosnia-Herzegovina",
-      "goals": 2,
-      "assists": null
     }
   ]
 }
