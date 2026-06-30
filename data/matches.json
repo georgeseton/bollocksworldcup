@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-30T20:23:08.446Z",
+  "updated": "2026-06-30T21:56:19.077Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -1072,13 +1072,13 @@
       "stage": "LAST_32",
       "group": null,
       "utcDate": "2026-06-30T17:00:00Z",
-      "status": "FINISHED",
+      "status": "TIMED",
       "matchday": null,
       "home": "Ivory Coast",
       "away": "Norway",
-      "homeScore": 1,
-      "awayScore": 2,
-      "winner": "AWAY_TEAM",
+      "homeScore": null,
+      "awayScore": null,
+      "winner": null,
       "odds": null
     },
     {
@@ -1086,13 +1086,13 @@
       "stage": "LAST_32",
       "group": null,
       "utcDate": "2026-06-30T21:00:00Z",
-      "status": "TIMED",
+      "status": "PAUSED",
       "matchday": null,
       "home": "France",
       "away": "Sweden",
-      "homeScore": null,
-      "awayScore": null,
-      "winner": null,
+      "homeScore": 0,
+      "awayScore": 0,
+      "winner": "DRAW",
       "odds": null
     },
     {

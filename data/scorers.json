@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-30T20:23:09.464Z",
+  "updated": "2026-06-30T21:56:19.709Z",
   "competition": "WC",
   "count": 30,
   "scorers": [
@@ -8,6 +8,12 @@
       "team": "Argentina",
       "goals": 6,
       "assists": null
+    },
+    {
+      "player": "Kylian Mbappé",
+      "team": "France",
+      "goals": 5,
+      "assists": 2
     },
     {
       "player": "Erling Haaland",
@@ -22,16 +28,10 @@
       "assists": 1
     },
     {
-      "player": "Kylian Mbappé",
-      "team": "France",
-      "goals": 4,
-      "assists": 2
-    },
-    {
       "player": "Ousmane Dembélé",
       "team": "France",
       "goals": 4,
-      "assists": 1
+      "assists": 2
     },
     {
       "player": "Ismael Saibari",
