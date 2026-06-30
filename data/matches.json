@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-30T00:15:51.207Z",
+  "updated": "2026-06-30T04:38:05.890Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -1048,8 +1048,8 @@
       "matchday": null,
       "home": "Germany",
       "away": "Paraguay",
-      "homeScore": 5,
-      "awayScore": 6,
+      "homeScore": 4,
+      "awayScore": 5,
       "winner": null,
       "odds": null
     },
@@ -1058,12 +1058,12 @@
       "stage": "LAST_32",
       "group": null,
       "utcDate": "2026-06-30T01:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "matchday": null,
       "home": "Netherlands",
       "away": "Morocco",
-      "homeScore": null,
-      "awayScore": null,
+      "homeScore": 4,
+      "awayScore": 4,
       "winner": null,
       "odds": null
     },
