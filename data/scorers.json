@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T18:14:19.579Z",
+  "updated": "2026-07-01T21:54:20.499Z",
   "competition": "WC",
   "count": 30,
   "scorers": [
@@ -38,6 +38,12 @@
       "team": "France",
       "goals": 4,
       "assists": 2
+    },
+    {
+      "player": "Ismaïla Sarr",
+      "team": "Senegal",
+      "goals": 4,
+      "assists": 1
     },
     {
       "player": "Julián Quiñones",
@@ -102,12 +108,6 @@
     {
       "player": "Cody Gakpo",
       "team": "Netherlands",
-      "goals": 3,
-      "assists": 1
-    },
-    {
-      "player": "Ismaïla Sarr",
-      "team": "Senegal",
       "goals": 3,
       "assists": 1
     },
