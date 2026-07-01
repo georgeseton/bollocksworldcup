@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-30T23:17:27.473Z",
+  "updated": "2026-07-01T06:09:40.462Z",
   "competition": "WC",
   "count": 30,
   "scorers": [
@@ -32,6 +32,12 @@
       "team": "France",
       "goals": 4,
       "assists": 2
+    },
+    {
+      "player": "Julián Quiñones",
+      "team": "Mexico",
+      "goals": 3,
+      "assists": 1
     },
     {
       "player": "Ismael Saibari",
@@ -106,7 +112,7 @@
       "assists": 1
     },
     {
-      "player": "Julián Quiñones",
+      "player": "Raúl Jiménez",
       "team": "Mexico",
       "goals": 2,
       "assists": null
@@ -176,12 +182,6 @@
       "team": "England",
       "goals": 2,
       "assists": 1
-    },
-    {
-      "player": "Daniel Muñoz",
-      "team": "Colombia",
-      "goals": 2,
-      "assists": null
     }
   ]
 }

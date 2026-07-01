@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T01:35:44.015Z",
+  "updated": "2026-07-01T06:09:37.951Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -1100,13 +1100,13 @@
       "stage": "LAST_32",
       "group": null,
       "utcDate": "2026-07-01T01:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "matchday": null,
       "home": "Mexico",
       "away": "Ecuador",
-      "homeScore": 0,
+      "homeScore": 2,
       "awayScore": 0,
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "odds": null
     },
     {
