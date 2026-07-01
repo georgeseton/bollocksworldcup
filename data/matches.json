@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T10:14:01.809Z",
+  "updated": "2026-07-01T18:14:18.421Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -1114,13 +1114,13 @@
       "stage": "LAST_32",
       "group": null,
       "utcDate": "2026-07-01T16:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "matchday": null,
       "home": "England",
       "away": "Congo DR",
-      "homeScore": null,
-      "awayScore": null,
-      "winner": null,
+      "homeScore": 2,
+      "awayScore": 1,
+      "winner": "HOME_TEAM",
       "odds": null
     },
     {
