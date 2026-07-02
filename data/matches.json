@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-02T05:36:37.101Z",
+  "updated": "2026-07-02T08:32:16.988Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -1284,8 +1284,8 @@
       "utcDate": "2026-07-06T00:00:00Z",
       "status": "TIMED",
       "matchday": null,
-      "home": null,
-      "away": null,
+      "home": "Mexico",
+      "away": "England",
       "homeScore": null,
       "awayScore": null,
       "winner": null,
@@ -1312,8 +1312,8 @@
       "utcDate": "2026-07-07T00:00:00Z",
       "status": "TIMED",
       "matchday": null,
-      "home": null,
-      "away": null,
+      "home": "United States",
+      "away": "Belgium",
       "homeScore": null,
       "awayScore": null,
       "winner": null,
