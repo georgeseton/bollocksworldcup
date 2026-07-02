@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-01T23:17:51.788Z",
+  "updated": "2026-07-02T01:27:46.523Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -1142,13 +1142,13 @@
       "stage": "LAST_32",
       "group": null,
       "utcDate": "2026-07-02T00:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": null,
       "home": "United States",
       "away": "Bosnia-Herzegovina",
-      "homeScore": null,
-      "awayScore": null,
-      "winner": null,
+      "homeScore": 1,
+      "awayScore": 0,
+      "winner": "HOME_TEAM",
       "odds": null
     },
     {
