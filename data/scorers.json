@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-02T20:19:52.876Z",
+  "updated": "2026-07-02T21:38:58.302Z",
   "competition": "WC",
   "count": 30,
   "scorers": [
@@ -30,6 +30,12 @@
     {
       "player": "Vinicius Junior",
       "team": "Brazil",
+      "goals": 4,
+      "assists": 1
+    },
+    {
+      "player": "Mikel Oyarzabal",
+      "team": "Spain",
       "goals": 4,
       "assists": 1
     },
@@ -114,12 +120,6 @@
     {
       "player": "Cody Gakpo",
       "team": "Netherlands",
-      "goals": 3,
-      "assists": 1
-    },
-    {
-      "player": "Mikel Oyarzabal",
-      "team": "Spain",
       "goals": 3,
       "assists": 1
     },

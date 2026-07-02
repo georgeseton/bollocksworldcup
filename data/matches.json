@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-02T20:19:50.664Z",
+  "updated": "2026-07-02T21:38:57.703Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -1156,11 +1156,11 @@
       "stage": "LAST_32",
       "group": null,
       "utcDate": "2026-07-02T19:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "matchday": null,
       "home": "Spain",
       "away": "Austria",
-      "homeScore": 1,
+      "homeScore": 3,
       "awayScore": 0,
       "winner": "HOME_TEAM",
       "odds": null
