@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-02T01:27:47.336Z",
+  "updated": "2026-07-02T20:19:52.876Z",
   "competition": "WC",
   "count": 30,
   "scorers": [
@@ -118,6 +118,12 @@
       "assists": 1
     },
     {
+      "player": "Mikel Oyarzabal",
+      "team": "Spain",
+      "goals": 3,
+      "assists": 1
+    },
+    {
       "player": "Raúl Jiménez",
       "team": "Mexico",
       "goals": 2,
@@ -176,12 +182,6 @@
       "team": "Austria",
       "goals": 2,
       "assists": null
-    },
-    {
-      "player": "Jude Bellingham",
-      "team": "England",
-      "goals": 2,
-      "assists": 1
     }
   ]
 }
