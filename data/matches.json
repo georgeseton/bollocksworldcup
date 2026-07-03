@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-03T18:19:22.462Z",
+  "updated": "2026-07-03T19:54:54.132Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -1202,9 +1202,9 @@
       "matchday": null,
       "home": "Australia",
       "away": "Egypt",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 1,
-      "winner": "AWAY_TEAM",
+      "winner": "DRAW",
       "odds": null
     },
     {
