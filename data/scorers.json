@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-02T21:38:58.302Z",
+  "updated": "2026-07-03T01:22:38.927Z",
   "competition": "WC",
   "count": 30,
   "scorers": [
@@ -124,6 +124,12 @@
       "assists": 1
     },
     {
+      "player": "Cristiano Ronaldo",
+      "team": "Portugal",
+      "goals": 3,
+      "assists": null
+    },
+    {
       "player": "Raúl Jiménez",
       "team": "Mexico",
       "goals": 2,
@@ -176,12 +182,6 @@
       "team": "France",
       "goals": 2,
       "assists": 1
-    },
-    {
-      "player": "Marko Arnautovic",
-      "team": "Austria",
-      "goals": 2,
-      "assists": null
     }
   ]
 }
