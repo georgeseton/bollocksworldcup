@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-03T01:22:38.927Z",
+  "updated": "2026-07-03T05:27:49.626Z",
   "competition": "WC",
   "count": 30,
   "scorers": [
@@ -97,7 +97,7 @@
       "player": "Johan Manzambi",
       "team": "Switzerland",
       "goals": 3,
-      "assists": 1
+      "assists": 2
     },
     {
       "player": "Jonathan David",
@@ -142,6 +142,12 @@
       "assists": null
     },
     {
+      "player": "Breel Embolo",
+      "team": "Switzerland",
+      "goals": 2,
+      "assists": 2
+    },
+    {
       "player": "Crysencio Summerville",
       "team": "Netherlands",
       "goals": 2,
@@ -174,12 +180,6 @@
     {
       "player": "Ramin Rezaeian",
       "team": "Iran",
-      "goals": 2,
-      "assists": 1
-    },
-    {
-      "player": "Bradley Barcola",
-      "team": "France",
       "goals": 2,
       "assists": 1
     }

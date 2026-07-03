@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-03T01:22:38.299Z",
+  "updated": "2026-07-03T05:27:47.664Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -1184,13 +1184,13 @@
       "stage": "LAST_32",
       "group": null,
       "utcDate": "2026-07-03T03:00:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "matchday": null,
       "home": "Switzerland",
       "away": "Algeria",
-      "homeScore": null,
-      "awayScore": null,
-      "winner": null,
+      "homeScore": 2,
+      "awayScore": 0,
+      "winner": "HOME_TEAM",
       "odds": null
     },
     {
