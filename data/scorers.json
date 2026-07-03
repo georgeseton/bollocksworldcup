@@ -1,19 +1,19 @@
 {
-  "updated": "2026-07-03T18:19:23.758Z",
+  "updated": "2026-07-03T23:30:48.624Z",
   "competition": "WC",
   "count": 30,
   "scorers": [
+    {
+      "player": "Lionel Messi",
+      "team": "Argentina",
+      "goals": 7,
+      "assists": null
+    },
     {
       "player": "Kylian Mbappé",
       "team": "France",
       "goals": 6,
       "assists": 2
-    },
-    {
-      "player": "Lionel Messi",
-      "team": "Argentina",
-      "goals": 6,
-      "assists": null
     },
     {
       "player": "Erling Haaland",
