@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-03T23:30:48.624Z",
+  "updated": "2026-07-04T01:13:54.344Z",
   "competition": "WC",
   "count": 30,
   "scorers": [
@@ -7,7 +7,7 @@
       "player": "Lionel Messi",
       "team": "Argentina",
       "goals": 7,
-      "assists": null
+      "assists": 1
     },
     {
       "player": "Kylian Mbappé",

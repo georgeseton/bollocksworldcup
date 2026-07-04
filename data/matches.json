@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-03T23:30:46.932Z",
+  "updated": "2026-07-04T01:13:52.176Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -1212,13 +1212,13 @@
       "stage": "LAST_32",
       "group": null,
       "utcDate": "2026-07-03T22:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "matchday": null,
       "home": "Argentina",
       "away": "Cape Verde Islands",
-      "homeScore": 1,
-      "awayScore": 1,
-      "winner": "DRAW",
+      "homeScore": 3,
+      "awayScore": 2,
+      "winner": "HOME_TEAM",
       "odds": null
     },
     {
