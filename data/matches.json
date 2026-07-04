@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-04T01:13:52.176Z",
+  "updated": "2026-07-04T04:55:36.485Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -1226,13 +1226,13 @@
       "stage": "LAST_32",
       "group": null,
       "utcDate": "2026-07-04T01:30:00Z",
-      "status": "TIMED",
+      "status": "FINISHED",
       "matchday": null,
       "home": "Colombia",
       "away": "Ghana",
-      "homeScore": null,
-      "awayScore": null,
-      "winner": null,
+      "homeScore": 1,
+      "awayScore": 0,
+      "winner": "HOME_TEAM",
       "odds": null
     },
     {
