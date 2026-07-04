@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-04T04:55:36.485Z",
+  "updated": "2026-07-04T07:48:43.667Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -1204,7 +1204,7 @@
       "away": "Egypt",
       "homeScore": 3,
       "awayScore": 5,
-      "winner": null,
+      "winner": "AWAY_TEAM",
       "odds": null
     },
     {
@@ -1298,8 +1298,8 @@
       "utcDate": "2026-07-06T19:00:00Z",
       "status": "TIMED",
       "matchday": null,
-      "home": null,
-      "away": null,
+      "home": "Portugal",
+      "away": "Spain",
       "homeScore": null,
       "awayScore": null,
       "winner": null,
@@ -1326,8 +1326,8 @@
       "utcDate": "2026-07-07T16:00:00Z",
       "status": "TIMED",
       "matchday": null,
-      "home": null,
-      "away": null,
+      "home": "Argentina",
+      "away": "Egypt",
       "homeScore": null,
       "awayScore": null,
       "winner": null,
@@ -1340,8 +1340,8 @@
       "utcDate": "2026-07-07T20:00:00Z",
       "status": "TIMED",
       "matchday": null,
-      "home": null,
-      "away": null,
+      "home": "Switzerland",
+      "away": "Colombia",
       "homeScore": null,
       "awayScore": null,
       "winner": null,
