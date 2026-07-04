@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-04T21:09:48.893Z",
+  "updated": "2026-07-04T22:11:09.929Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -1254,7 +1254,7 @@
       "stage": "LAST_16",
       "group": null,
       "utcDate": "2026-07-04T21:00:00Z",
-      "status": "LIVE",
+      "status": "PAUSED",
       "matchday": null,
       "home": "Paraguay",
       "away": "France",
