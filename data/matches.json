@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-04T07:48:43.667Z",
+  "updated": "2026-07-04T17:47:59.044Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -1240,13 +1240,13 @@
       "stage": "LAST_16",
       "group": null,
       "utcDate": "2026-07-04T17:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": null,
       "home": "Canada",
       "away": "Morocco",
-      "homeScore": null,
-      "awayScore": null,
-      "winner": null,
+      "homeScore": 0,
+      "awayScore": 0,
+      "winner": "DRAW",
       "odds": null
     },
     {
