@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-04T22:11:09.929Z",
+  "updated": "2026-07-04T23:17:17.122Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -1254,13 +1254,13 @@
       "stage": "LAST_16",
       "group": null,
       "utcDate": "2026-07-04T21:00:00Z",
-      "status": "PAUSED",
+      "status": "FINISHED",
       "matchday": null,
       "home": "Paraguay",
       "away": "France",
       "homeScore": 0,
-      "awayScore": 0,
-      "winner": "DRAW",
+      "awayScore": 1,
+      "winner": "AWAY_TEAM",
       "odds": null
     },
     {
