@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-04T17:47:59.044Z",
+  "updated": "2026-07-04T18:45:15.782Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -1245,8 +1245,8 @@
       "home": "Canada",
       "away": "Morocco",
       "homeScore": 0,
-      "awayScore": 0,
-      "winner": "DRAW",
+      "awayScore": 1,
+      "winner": "AWAY_TEAM",
       "odds": null
     },
     {
