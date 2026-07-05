@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-05T22:34:14.631Z",
+  "updated": "2026-07-05T23:41:31.179Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -1281,8 +1281,8 @@
       "id": 537378,
       "stage": "LAST_16",
       "group": null,
-      "utcDate": "2026-07-06T00:00:00Z",
-      "status": "TIMED",
+      "utcDate": "2026-07-06T01:00:00Z",
+      "status": "2026-07-06 01:00:00Z",
       "matchday": null,
       "home": "Mexico",
       "away": "England",
