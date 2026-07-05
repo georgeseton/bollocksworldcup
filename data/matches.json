@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-05T21:29:51.598Z",
+  "updated": "2026-07-05T22:34:14.631Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -1268,13 +1268,13 @@
       "stage": "LAST_16",
       "group": null,
       "utcDate": "2026-07-05T20:00:00Z",
-      "status": "LIVE",
+      "status": "FINISHED",
       "matchday": null,
       "home": "Brazil",
       "away": "Norway",
-      "homeScore": 0,
-      "awayScore": 0,
-      "winner": "DRAW",
+      "homeScore": 1,
+      "awayScore": 2,
+      "winner": "AWAY_TEAM",
       "odds": null
     },
     {
