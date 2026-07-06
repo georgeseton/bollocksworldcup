@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-05T22:34:14.912Z",
+  "updated": "2026-07-06T06:06:06.312Z",
   "competition": "WC",
   "count": 30,
   "scorers": [
@@ -24,12 +24,24 @@
     {
       "player": "Harry Kane",
       "team": "England",
-      "goals": 5,
-      "assists": null
+      "goals": 6,
+      "assists": 1
+    },
+    {
+      "player": "Julián Quiñones",
+      "team": "Mexico",
+      "goals": 4,
+      "assists": 1
     },
     {
       "player": "Vinicius Junior",
       "team": "Brazil",
+      "goals": 4,
+      "assists": 1
+    },
+    {
+      "player": "Jude Bellingham",
+      "team": "England",
       "goals": 4,
       "assists": 1
     },
@@ -52,10 +64,10 @@
       "assists": 1
     },
     {
-      "player": "Julián Quiñones",
+      "player": "Raúl Jiménez",
       "team": "Mexico",
       "goals": 3,
-      "assists": 1
+      "assists": null
     },
     {
       "player": "Folarin Balogun",
@@ -130,12 +142,6 @@
       "assists": null
     },
     {
-      "player": "Raúl Jiménez",
-      "team": "Mexico",
-      "goals": 2,
-      "assists": null
-    },
-    {
       "player": "Cyle Larin",
       "team": "Canada",
       "goals": 2,
@@ -176,12 +182,6 @@
       "team": "Egypt",
       "goals": 2,
       "assists": null
-    },
-    {
-      "player": "Maximiliano Araújo",
-      "team": "Uruguay",
-      "goals": 2,
-      "assists": 1
     }
   ]
 }
