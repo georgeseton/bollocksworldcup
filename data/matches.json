@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-06T06:06:05.360Z",
+  "updated": "2026-07-06T10:59:46.744Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -1382,8 +1382,8 @@
       "utcDate": "2026-07-11T21:00:00Z",
       "status": "TIMED",
       "matchday": null,
-      "home": null,
-      "away": null,
+      "home": "Norway",
+      "away": "England",
       "homeScore": null,
       "awayScore": null,
       "winner": null,
