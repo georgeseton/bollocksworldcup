@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-06T10:59:46.744Z",
+  "updated": "2026-07-06T19:17:01.850Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -1296,13 +1296,13 @@
       "stage": "LAST_16",
       "group": null,
       "utcDate": "2026-07-06T19:00:00Z",
-      "status": "TIMED",
+      "status": "LIVE",
       "matchday": null,
       "home": "Portugal",
       "away": "Spain",
-      "homeScore": null,
-      "awayScore": null,
-      "winner": null,
+      "homeScore": 0,
+      "awayScore": 0,
+      "winner": "DRAW",
       "odds": null
     },
     {
