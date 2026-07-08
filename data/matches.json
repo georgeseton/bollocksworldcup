@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-07T23:25:58.677Z",
+  "updated": "2026-07-08T07:06:39.190Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -1344,7 +1344,7 @@
       "away": "Colombia",
       "homeScore": 4,
       "awayScore": 3,
-      "winner": null,
+      "winner": "HOME_TEAM",
       "odds": null
     },
     {
@@ -1396,8 +1396,8 @@
       "utcDate": "2026-07-12T01:00:00Z",
       "status": "TIMED",
       "matchday": null,
-      "home": null,
-      "away": null,
+      "home": "Argentina",
+      "away": "Switzerland",
       "homeScore": null,
       "awayScore": null,
       "winner": null,
