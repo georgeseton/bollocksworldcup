@@ -1,13 +1,13 @@
 {
   "_comment": "Outright 'win the World Cup' decimal odds, auto-updated from The Odds API (median across bookmakers). Team names are matched to groups.json in the front-end via ALIASES.",
-  "_updated": "2026-07-08T04:28:40.842Z",
+  "_updated": "2026-07-08T11:27:50.533Z",
   "_source": "the-odds-api:soccer_fifa_world_cup_winner:uk",
   "France": 2.97,
-  "Spain": 4.8,
-  "Argentina": 4.95,
-  "England": 6.1,
-  "Norway": 17.25,
+  "Spain": 4.85,
+  "Argentina": 4.9,
+  "England": 6,
+  "Norway": 16,
   "Morocco": 34,
   "Belgium": 36,
-  "Switzerland": 37
+  "Switzerland": 38
 }
