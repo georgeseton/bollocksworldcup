@@ -1,19 +1,19 @@
 {
-  "updated": "2026-07-07T19:15:38.183Z",
+  "updated": "2026-07-09T21:45:11.811Z",
   "competition": "WC",
   "count": 30,
   "scorers": [
+    {
+      "player": "Kylian Mbappé",
+      "team": "France",
+      "goals": 8,
+      "assists": 2
+    },
     {
       "player": "Lionel Messi",
       "team": "Argentina",
       "goals": 8,
       "assists": 1
-    },
-    {
-      "player": "Kylian Mbappé",
-      "team": "France",
-      "goals": 7,
-      "assists": 2
     },
     {
       "player": "Erling Haaland",
@@ -26,6 +26,12 @@
       "team": "England",
       "goals": 6,
       "assists": 1
+    },
+    {
+      "player": "Ousmane Dembélé",
+      "team": "France",
+      "goals": 5,
+      "assists": 2
     },
     {
       "player": "Julián Quiñones",
@@ -50,12 +56,6 @@
       "team": "Spain",
       "goals": 4,
       "assists": 1
-    },
-    {
-      "player": "Ousmane Dembélé",
-      "team": "France",
-      "goals": 4,
-      "assists": 2
     },
     {
       "player": "Ismaïla Sarr",
