@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-08T07:06:39.190Z",
+  "updated": "2026-07-09T20:10:00.197Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -1352,13 +1352,13 @@
       "stage": "QUARTER_FINALS",
       "group": null,
       "utcDate": "2026-07-09T20:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": null,
       "home": "France",
       "away": "Morocco",
-      "homeScore": null,
-      "awayScore": null,
-      "winner": null,
+      "homeScore": 0,
+      "awayScore": 0,
+      "winner": "DRAW",
       "odds": null
     },
     {
