@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-10T19:10:04.778Z",
+  "updated": "2026-07-10T20:42:53.784Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -1370,8 +1370,8 @@
       "matchday": null,
       "home": "Spain",
       "away": "Belgium",
-      "homeScore": 0,
-      "awayScore": 0,
+      "homeScore": 1,
+      "awayScore": 1,
       "winner": "DRAW",
       "odds": null
     },

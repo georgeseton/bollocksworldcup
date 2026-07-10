@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-09T21:45:11.811Z",
+  "updated": "2026-07-10T20:42:54.126Z",
   "competition": "WC",
   "count": 30,
   "scorers": [
@@ -148,6 +148,12 @@
       "assists": 1
     },
     {
+      "player": "Charles De Ketelaere",
+      "team": "Belgium",
+      "goals": 3,
+      "assists": 1
+    },
+    {
       "player": "Cyle Larin",
       "team": "Canada",
       "goals": 2,
@@ -174,12 +180,6 @@
     {
       "player": "Amad Diallo",
       "team": "Ivory Coast",
-      "goals": 2,
-      "assists": null
-    },
-    {
-      "player": "Yasin Ayari",
-      "team": "Sweden",
       "goals": 2,
       "assists": null
     }
