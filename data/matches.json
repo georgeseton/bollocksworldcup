@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-10T20:42:53.784Z",
+  "updated": "2026-07-10T21:44:52.713Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -1366,13 +1366,13 @@
       "stage": "QUARTER_FINALS",
       "group": null,
       "utcDate": "2026-07-10T19:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "matchday": null,
       "home": "Spain",
       "away": "Belgium",
-      "homeScore": 1,
+      "homeScore": 2,
       "awayScore": 1,
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "odds": null
     },
     {
