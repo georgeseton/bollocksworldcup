@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-11T22:29:01.607Z",
+  "updated": "2026-07-11T23:31:55.598Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -1380,13 +1380,13 @@
       "stage": "QUARTER_FINALS",
       "group": null,
       "utcDate": "2026-07-11T21:00:00Z",
-      "status": "IN_PLAY",
+      "status": "PAUSED",
       "matchday": null,
       "home": "Norway",
       "away": "England",
-      "homeScore": 2,
-      "awayScore": 1,
-      "winner": "HOME_TEAM",
+      "homeScore": 1,
+      "awayScore": 2,
+      "winner": "AWAY_TEAM",
       "odds": null
     },
     {
