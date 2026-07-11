@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-11T21:30:38.424Z",
+  "updated": "2026-07-11T22:29:01.607Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -1384,9 +1384,9 @@
       "matchday": null,
       "home": "Norway",
       "away": "England",
-      "homeScore": 0,
-      "awayScore": 0,
-      "winner": "DRAW",
+      "homeScore": 2,
+      "awayScore": 1,
+      "winner": "HOME_TEAM",
       "odds": null
     },
     {

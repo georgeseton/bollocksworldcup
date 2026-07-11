@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-10T20:42:54.126Z",
+  "updated": "2026-07-11T22:29:03.091Z",
   "competition": "WC",
   "count": 30,
   "scorers": [
@@ -28,6 +28,12 @@
       "assists": 1
     },
     {
+      "player": "Jude Bellingham",
+      "team": "England",
+      "goals": 5,
+      "assists": 1
+    },
+    {
       "player": "Ousmane Dembélé",
       "team": "France",
       "goals": 5,
@@ -42,12 +48,6 @@
     {
       "player": "Vinicius Junior",
       "team": "Brazil",
-      "goals": 4,
-      "assists": 1
-    },
-    {
-      "player": "Jude Bellingham",
-      "team": "England",
       "goals": 4,
       "assists": 1
     },
