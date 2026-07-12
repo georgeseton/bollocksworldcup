@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-12T01:11:23.960Z",
+  "updated": "2026-07-12T04:42:59.950Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -1394,13 +1394,13 @@
       "stage": "QUARTER_FINALS",
       "group": null,
       "utcDate": "2026-07-12T01:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "matchday": null,
       "home": "Argentina",
       "away": "Switzerland",
-      "homeScore": 0,
-      "awayScore": 0,
-      "winner": "DRAW",
+      "homeScore": 3,
+      "awayScore": 1,
+      "winner": "HOME_TEAM",
       "odds": null
     },
     {
