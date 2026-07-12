@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-11T23:31:55.598Z",
+  "updated": "2026-07-12T01:11:23.960Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -1380,7 +1380,7 @@
       "stage": "QUARTER_FINALS",
       "group": null,
       "utcDate": "2026-07-11T21:00:00Z",
-      "status": "PAUSED",
+      "status": "FINISHED",
       "matchday": null,
       "home": "Norway",
       "away": "England",
@@ -1394,13 +1394,13 @@
       "stage": "QUARTER_FINALS",
       "group": null,
       "utcDate": "2026-07-12T01:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": null,
       "home": "Argentina",
       "away": "Switzerland",
-      "homeScore": null,
-      "awayScore": null,
-      "winner": null,
+      "homeScore": 0,
+      "awayScore": 0,
+      "winner": "DRAW",
       "odds": null
     },
     {
