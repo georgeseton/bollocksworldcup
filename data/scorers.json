@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-12T04:43:04.017Z",
+  "updated": "2026-07-14T19:59:43.547Z",
   "competition": "WC",
   "count": 30,
   "scorers": [
@@ -34,6 +34,12 @@
       "assists": 1
     },
     {
+      "player": "Mikel Oyarzabal",
+      "team": "Spain",
+      "goals": 5,
+      "assists": 1
+    },
+    {
       "player": "Ousmane Dembélé",
       "team": "France",
       "goals": 5,
@@ -48,12 +54,6 @@
     {
       "player": "Vinicius Junior",
       "team": "Brazil",
-      "goals": 4,
-      "assists": 1
-    },
-    {
-      "player": "Mikel Oyarzabal",
-      "team": "Spain",
       "goals": 4,
       "assists": 1
     },

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-12T07:18:54.689Z",
+  "updated": "2026-07-14T19:59:42.012Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -1408,13 +1408,13 @@
       "stage": "SEMI_FINALS",
       "group": null,
       "utcDate": "2026-07-14T19:00:00Z",
-      "status": "TIMED",
+      "status": "PAUSED",
       "matchday": null,
       "home": "France",
       "away": "Spain",
-      "homeScore": null,
-      "awayScore": null,
-      "winner": null,
+      "homeScore": 0,
+      "awayScore": 1,
+      "winner": "AWAY_TEAM",
       "odds": null
     },
     {
