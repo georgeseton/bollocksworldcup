@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-14T19:59:43.547Z",
+  "updated": "2026-07-15T21:42:42.011Z",
   "competition": "WC",
   "count": 30,
   "scorers": [
@@ -13,7 +13,7 @@
       "player": "Lionel Messi",
       "team": "Argentina",
       "goals": 8,
-      "assists": 2
+      "assists": 4
     },
     {
       "player": "Erling Haaland",
@@ -148,6 +148,12 @@
       "assists": 1
     },
     {
+      "player": "Lautaro Martínez",
+      "team": "Argentina",
+      "goals": 3,
+      "assists": 1
+    },
+    {
       "player": "Charles De Ketelaere",
       "team": "Belgium",
       "goals": 3,
@@ -174,12 +180,6 @@
     {
       "player": "Daichi Kamada",
       "team": "Japan",
-      "goals": 2,
-      "assists": null
-    },
-    {
-      "player": "Amad Diallo",
-      "team": "Ivory Coast",
       "goals": 2,
       "assists": null
     }

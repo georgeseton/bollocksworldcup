@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-15T20:42:07.375Z",
+  "updated": "2026-07-15T21:42:40.952Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -1422,13 +1422,13 @@
       "stage": "SEMI_FINALS",
       "group": null,
       "utcDate": "2026-07-15T19:00:00Z",
-      "status": "IN_PLAY",
+      "status": "FINISHED",
       "matchday": null,
       "home": "England",
       "away": "Argentina",
       "homeScore": 1,
-      "awayScore": 0,
-      "winner": "HOME_TEAM",
+      "awayScore": 2,
+      "winner": "AWAY_TEAM",
       "odds": null
     },
     {
