@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-15T21:42:40.952Z",
+  "updated": "2026-07-16T07:03:55.325Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -1439,7 +1439,7 @@
       "status": "TIMED",
       "matchday": null,
       "home": "France",
-      "away": null,
+      "away": "England",
       "homeScore": null,
       "awayScore": null,
       "winner": null,
@@ -1453,7 +1453,7 @@
       "status": "TIMED",
       "matchday": null,
       "home": "Spain",
-      "away": null,
+      "away": "Argentina",
       "homeScore": null,
       "awayScore": null,
       "winner": null,
