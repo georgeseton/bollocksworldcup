@@ -41,6 +41,7 @@ const state = {
   odds: {},            // { team: decimalOdds }
   scorers: [],         // [{ player, team, goals, assists }]
   facts: {},           // { country: [fact, ...] }
+  final: {},           // hand-editable final override { home, away } (cron-proof)
   updated: null,
   ownerOf: {},         // team name -> player name
   colorOf: {},         // player name -> colour
@@ -308,6 +309,62 @@ function fixtureRow(m) {
       ${score}
       <span class="side away">${an}<span class="fx-flag">${af}</span></span>
     </div>`;
+}
+
+// The free feed leaves knockout teams null, so overlay the hand-editable
+// data/final.json onto the FINAL match — but only where the feed is silent, so
+// genuine feed data always wins. Reapplied on every matches.json (re)load, which
+// is what makes the banner survive the scores Action overwriting matches.json.
+function applyFinalOverride() {
+  const o = state.final || {};
+  if (!o.home && !o.away) return;
+  const m = state.matches.find((x) => x.stage === "FINAL");
+  if (!m) return;
+  if (m.home == null && o.home) m.home = o.home;
+  if (m.away == null && o.away) m.away = o.away;
+}
+
+// ---- Featured final banner (home page hero) -----------------------------
+// Surfaces the FINAL match prominently at the top of the home page. Reads the
+// teams from matches.json (schedule source of truth); hidden until they're set.
+function renderFinalBanner() {
+  const el = document.getElementById("final-banner");
+  if (!el) return;
+  const m = state.matches.find((x) => x.stage === "FINAL");
+  const h = m && resolveRoster(m.home), a = m && resolveRoster(m.away);
+  if (!m || !h || !a) { el.hidden = true; el.innerHTML = ""; return; }
+
+  const live = m.status === "IN_PLAY" || m.status === "PAUSED";
+  const played = m.homeScore != null && m.awayScore != null;
+  const when = m.utcDate
+    ? new Date(m.utcDate).toLocaleString(undefined, { weekday: "long", month: "long", day: "numeric", hour: "2-digit", minute: "2-digit" })
+    : "Date TBD";
+  const right = live ? `<span class="nm-live">● ${m.liveClock || "Live"}</span>` : (played ? "Full time" : when);
+  const middle = played
+    ? `<span class="nm-score ${live ? "live" : ""}">${m.homeScore}–${m.awayScore}</span>`
+    : `<span class="fb-vs">VS</span>`;
+
+  el.innerHTML = `
+    <div class="fb-inner" data-team="${h.name}" data-team2="${a.name}" data-player="${state.ownerOf[h.name] || ""}">
+      <div class="fb-head"><span class="fb-label">🏆 The Final</span><span class="fb-when">${right}</span></div>
+      <div class="fb-teams">
+        <div class="fb-team">
+          <span class="fb-flag">${h.flag}</span><span class="fb-name">${h.name}</span>${ownerChip(h.name)}
+        </div>
+        ${middle}
+        <div class="fb-team">
+          <span class="fb-flag">${a.flag}</span><span class="fb-name">${a.name}</span>${ownerChip(a.name)}
+        </div>
+      </div>
+    </div>`;
+  el.hidden = false;
+}
+
+// The banner is a home-page hero — only show it on the default (Groups) view.
+function updateFinalBannerVisibility(activeView) {
+  const el = document.getElementById("final-banner");
+  if (!el || !el.innerHTML) return;
+  el.hidden = activeView !== "groups";
 }
 
 // ---- Views --------------------------------------------------------------
@@ -639,6 +696,7 @@ function wireEvents() {
       for (const v of ["groups", "knockout", "fixtures", "scorers", "players", "shittest"]) {
         document.getElementById(`view-${v}`).hidden = v !== view;
       }
+      updateFinalBannerVisibility(view);
     });
   });
 
@@ -660,6 +718,8 @@ function wireEvents() {
 // Re-render everything that depends on live data (called on load and each poll).
 function renderAll() {
   const standings = computeStandings();
+  renderFinalBanner();
+  updateFinalBannerVisibility(document.querySelector(".tab.is-active")?.dataset.view || "groups");
   renderFixtures();
   renderGroups(standings);
   renderKnockout();
@@ -734,6 +794,7 @@ async function refreshLiveData() {
     ]);
     if (matchData) { state.matches = matchData.matches || []; state.updated = matchData.updated || null; }
     if (scorerData) state.scorers = scorerData.scorers || [];
+    applyFinalOverride(); // re-overlay the final teams onto freshly-loaded matches
     await fetchLiveScores();
     renderAll();
   } catch { /* keep showing the last good data */ }
@@ -741,13 +802,14 @@ async function refreshLiveData() {
 
 async function init() {
   try {
-    const [groups, assignments, matchData, oddsData, scorerData, factData] = await Promise.all([
+    const [groups, assignments, matchData, oddsData, scorerData, factData, finalData] = await Promise.all([
       loadJSON("data/groups.json"),
       loadJSON("data/assignments.json"),
       loadJSON("data/matches.json").catch(() => ({ matches: [], updated: null })),
       loadJSON("data/odds.json").catch(() => ({})),
       loadJSON("data/scorers.json").catch(() => ({ scorers: [] })),
       loadJSON("data/facts.json").catch(() => ({})),
+      loadJSON("data/final.json").catch(() => ({})),
     ]);
     state.groups = groups;
     state.assignments = assignments;
@@ -756,6 +818,8 @@ async function init() {
     state.odds = oddsData || {};
     state.scorers = scorerData.scorers || [];
     state.facts = factData || {};
+    state.final = finalData || {};
+    applyFinalOverride();
 
     const players = buildIndexes();
     renderFlagBackdrop();

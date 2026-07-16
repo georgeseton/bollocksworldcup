@@ -1,0 +1,5 @@
+{
+  "_comment": "Hand-editable override for the knockout final's teams. The free football-data feed leaves knockout teams null, so matches.json shows the final as TBD. This file fills them in and is NOT written by the scores GitHub Action, so it survives the 10-min cron. It only applies when matches.json hasn't populated the teams — real feed data always wins. Names must match data/groups.json exactly. Clear home/away (set to null) to hide the home-page final banner.",
+  "home": "Spain",
+  "away": "Argentina"
+}
