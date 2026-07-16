@@ -360,13 +360,6 @@ function renderFinalBanner() {
   el.hidden = false;
 }
 
-// The banner is a home-page hero — only show it on the default (Groups) view.
-function updateFinalBannerVisibility(activeView) {
-  const el = document.getElementById("final-banner");
-  if (!el || !el.innerHTML) return;
-  el.hidden = activeView !== "groups";
-}
-
 // ---- Views --------------------------------------------------------------
 function renderGroups(standings) {
   const el = document.getElementById("view-groups");
@@ -696,7 +689,6 @@ function wireEvents() {
       for (const v of ["groups", "knockout", "fixtures", "scorers", "players", "shittest"]) {
         document.getElementById(`view-${v}`).hidden = v !== view;
       }
-      updateFinalBannerVisibility(view);
     });
   });
 
@@ -719,7 +711,6 @@ function wireEvents() {
 function renderAll() {
   const standings = computeStandings();
   renderFinalBanner();
-  updateFinalBannerVisibility(document.querySelector(".tab.is-active")?.dataset.view || "groups");
   renderFixtures();
   renderGroups(standings);
   renderKnockout();

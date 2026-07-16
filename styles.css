@@ -193,8 +193,8 @@ h1, h2, .nm-name, .nm-score, .rank { font-family: var(--font-head); }
   letter-spacing: 0.22em; color: var(--muted); text-align: center; margin: 0 0 16px;
 }
 
-/* ---- Featured final banner (home hero) ---------------------- */
-.final-banner { margin: 4px 0 22px; }
+/* ---- Featured final banner (top hero, above the tabs) ------- */
+.final-banner { margin: 10px auto 2px; }
 .final-banner[hidden] { display: none; }
 .fb-inner {
   position: relative; overflow: hidden;
