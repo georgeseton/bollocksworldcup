@@ -1,12 +1,12 @@
 {
-  "updated": "2026-07-18T22:29:31.331Z",
+  "updated": "2026-07-18T23:31:34.006Z",
   "competition": "WC",
   "count": 30,
   "scorers": [
     {
       "player": "Kylian Mbappé",
       "team": "France",
-      "goals": 9,
+      "goals": 10,
       "assists": 4
     },
     {
@@ -22,28 +22,28 @@
       "assists": null
     },
     {
+      "player": "Jude Bellingham",
+      "team": "England",
+      "goals": 7,
+      "assists": 1
+    },
+    {
       "player": "Harry Kane",
       "team": "England",
       "goals": 6,
       "assists": 1
     },
     {
-      "player": "Jude Bellingham",
-      "team": "England",
+      "player": "Ousmane Dembélé",
+      "team": "France",
       "goals": 6,
-      "assists": 1
+      "assists": 2
     },
     {
       "player": "Mikel Oyarzabal",
       "team": "Spain",
       "goals": 5,
       "assists": 1
-    },
-    {
-      "player": "Ousmane Dembélé",
-      "team": "France",
-      "goals": 5,
-      "assists": 2
     },
     {
       "player": "Julián Quiñones",
@@ -166,6 +166,12 @@
       "assists": 1
     },
     {
+      "player": "Bukayo Saka",
+      "team": "England",
+      "goals": 3,
+      "assists": 3
+    },
+    {
       "player": "Cyle Larin",
       "team": "Canada",
       "goals": 2,
@@ -174,12 +180,6 @@
     {
       "player": "Breel Embolo",
       "team": "Switzerland",
-      "goals": 2,
-      "assists": 2
-    },
-    {
-      "player": "Crysencio Summerville",
-      "team": "Netherlands",
       "goals": 2,
       "assists": 2
     }
