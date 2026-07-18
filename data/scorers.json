@@ -1,13 +1,13 @@
 {
-  "updated": "2026-07-17T08:56:52.332Z",
+  "updated": "2026-07-18T22:29:31.331Z",
   "competition": "WC",
   "count": 30,
   "scorers": [
     {
       "player": "Kylian Mbappé",
       "team": "France",
-      "goals": 8,
-      "assists": 3
+      "goals": 9,
+      "assists": 4
     },
     {
       "player": "Lionel Messi",
@@ -100,6 +100,12 @@
       "assists": null
     },
     {
+      "player": "Bradley Barcola",
+      "team": "France",
+      "goals": 3,
+      "assists": 1
+    },
+    {
       "player": "Yoane Wissa",
       "team": "Congo DR",
       "goals": 3,
@@ -176,12 +182,6 @@
       "team": "Netherlands",
       "goals": 2,
       "assists": 2
-    },
-    {
-      "player": "Daichi Kamada",
-      "team": "Japan",
-      "goals": 2,
-      "assists": null
     }
   ]
 }
