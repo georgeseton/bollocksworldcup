@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-16T07:03:55.325Z",
+  "updated": "2026-07-18T21:31:23.135Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -1436,13 +1436,13 @@
       "stage": "THIRD_PLACE",
       "group": null,
       "utcDate": "2026-07-18T21:00:00Z",
-      "status": "TIMED",
+      "status": "IN_PLAY",
       "matchday": null,
       "home": "France",
       "away": "England",
-      "homeScore": null,
-      "awayScore": null,
-      "winner": null,
+      "homeScore": 0,
+      "awayScore": 2,
+      "winner": "AWAY_TEAM",
       "odds": null
     },
     {
