@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-19T21:01:34.853Z",
+  "updated": "2026-07-19T22:06:28.659Z",
   "competition": "WC",
   "count": 104,
   "matches": [
@@ -1450,13 +1450,13 @@
       "stage": "FINAL",
       "group": null,
       "utcDate": "2026-07-19T19:00:00Z",
-      "status": "IN_PLAY",
+      "status": "LIVE",
       "matchday": null,
       "home": "Spain",
       "away": "Argentina",
-      "homeScore": 0,
+      "homeScore": 1,
       "awayScore": 0,
-      "winner": "DRAW",
+      "winner": "HOME_TEAM",
       "odds": null
     }
   ]
